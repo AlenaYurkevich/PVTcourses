@@ -1,0 +1,50 @@
+#1. Login. Negative Flow. Incorrect email ending selected from the dropdown
+
+Preconditions:
+a user is not logged in on mail.ru, all fields are cleared
+valid email box (ends in @mail.ru)
+
+Steps:
+1) Open mail.ru
+2) Click into the login field (.//input[@id="mailbox:login"]), type in a valid email box name.
+3) Click on the email ending dropdown (.//select[@id="mailbox:domain"]), select @bk.ru (//*[@id="mailbox:domain"]/option[4])
+4) Click into the password field (.//input[@id="mailbox:password"]), type in a correct password.
+5) Click on Sign in button (.//input[@class="o-control"])
+
+Expected result: Error message - "Incorrect login or password" (.//div[@class="mailbox__row mailbox__row_condensed i-font-md i-color-coral"])
+
+
+
+
+
+#2. Search categories. Pictures link leads to pictures search result
+
+Steps:
+1) Open mail.ru
+2) Above the search panel click on Pictures link (.//a[@data-name="pictures"])
+
+Expected result: 
+1) another page, https://go.mail.ru/search_images, is opened
+2) Pictures tab is preselected (.//a[@data-section="/search_images"])
+
+
+
+
+
+#3. Login. Login via Sign in link
+
+Preconditions:
+a user is not logged in on mail.ru, all fields are cleared
+a user has a *@mail.ru account
+
+Steps:
+1) Click on Sign in link at the top right corner of the page (.//a[@id="PH_authLink"])
+2) Check that Sign in popup appears (.//form[@action="https://auth.mail.ru/cgi-bin/auth"])
+3) Check that mail.ru tab is preselected (.//span[@class="ProvidersListItemIcon ProvidersListItemIconMailru"])
+4) Click into popup login field ( (.//input[@class="c0155"])[1] ), type in a valid email box name
+5) Click into popup password field ((.//input[@class="c0155"])[2]), type in a valid password
+6) Click on Sign in button (.//button[@class="c01100 c0177 c01110 c0187 c01104 c0181"])
+
+Expected result:
+1) another page, https://e.mail.ru/messages/inbox, is opened
+2) there is a button "Compose a letter" ( (.//a[@data-name="compose"])[1] ) in the top left corner of the page
