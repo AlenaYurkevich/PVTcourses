@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/Countries"
+	xmlns:tns="http://www.example.org/Countries"
+	elementFormDefault="qualified">
+	<element name="Refs">
+		<complexType>
+			<sequence>
+				<element name="Countries">
+					<complexType>
+						<sequence>
+							<element name="Country" maxOccurs="unbounded"
+								minOccurs="0">
+								<complexType>
+									<sequence>
+										<element name="Code" type="string" />
+										<element name="Name" type="string" />
+										<element name="Description" type="string" />
+									</sequence>
+									<attribute name="id" type="integer" use="required" />
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
