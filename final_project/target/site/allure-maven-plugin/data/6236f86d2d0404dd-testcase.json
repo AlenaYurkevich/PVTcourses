@@ -1,0 +1,47 @@
+{
+  "uid" : "6236f86d2d0404dd",
+  "name" : "When I edit the message I've left on the wall",
+  "title" : "When I edit the message I've left on the wall",
+  "time" : {
+    "start" : 1554234358678,
+    "stop" : 1554234358678,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "8021dc8ec74e0139",
+    "name" : "Scenario: Test editing of the previously added message",
+    "title" : "Scenario: test editing of the previously added message"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Scenario: Test editing of the previously added message"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook-Air.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7435@Alenas-MacBook-Air.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

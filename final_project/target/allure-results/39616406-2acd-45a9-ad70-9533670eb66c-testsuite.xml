@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1554234329297" stop="1554234376537" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Scenario: Try to log in with incorrect credentials</name>
+    <test-cases>
+        <test-case start="1554234332579" stop="1554234332579" status="passed">
+            <name>When I log in with incorrect username and password taken from xml</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234332579" stop="1554234332579" status="passed">
+            <name>When I log in with incorrect username and password taken from xml</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234333014" stop="1554234333014" status="passed">
+            <name>When I make my screenshot</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234333179" stop="1554234333179" status="passed">
+            <name>Then I see the error message</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

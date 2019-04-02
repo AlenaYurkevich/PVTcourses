@@ -1,0 +1,47 @@
+{
+  "uid" : "4e254fba88f57c9e",
+  "name" : "When I log into mail.ru",
+  "title" : "Ru",
+  "time" : {
+    "start" : 1554234314846,
+    "stop" : 1554234314846,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "dffea0ffe205d696",
+    "name" : "Scenario: Mark and unmark some emails with flags",
+    "title" : "Scenario: mark and unmark some emails with flags"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook-Air.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7435@Alenas-MacBook-Air.local.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Scenario: Mark and unmark some emails with flags"
+  } ],
+  "parameters" : [ ]
+}

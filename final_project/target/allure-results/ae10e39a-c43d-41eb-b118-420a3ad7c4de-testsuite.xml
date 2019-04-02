@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1554234317664" stop="1554234376484" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Scenario: Send email to several addressees</name>
+    <test-cases>
+        <test-case start="1554234329295" stop="1554234329296" status="passed">
+            <name>When I enter addressees, subject, text and click Send</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234329295" stop="1554234329296" status="passed">
+            <name>When I enter addressees, subject, text and click Send</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

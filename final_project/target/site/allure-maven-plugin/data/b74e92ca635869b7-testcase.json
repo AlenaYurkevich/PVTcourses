@@ -1,0 +1,47 @@
+{
+  "uid" : "b74e92ca635869b7",
+  "name" : "When I post message on the wall",
+  "title" : "When I post message on the wall",
+  "time" : {
+    "start" : 1554234351117,
+    "stop" : 1554234351117,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "3dced4db4429a40a",
+    "name" : "Scenario: Post message on the wall",
+    "title" : "Scenario: post message on the wall"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook-Air.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Scenario: Post message on the wall"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7435@Alenas-MacBook-Air.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

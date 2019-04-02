@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1554234285671" stop="1554234376515" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Scenario: Log out</name>
+    <test-cases>
+        <test-case start="1554234296910" stop="1554234296914" status="passed">
+            <name>When I log in my account</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234296910" stop="1554234296914" status="passed">
+            <name>When I log in my account</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234298027" stop="1554234298027" status="passed">
+            <name>When I click Logout link</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234298526" stop="1554234298526" status="passed">
+            <name>When I make a screenshot</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234298765" stop="1554234298765" status="passed">
+            <name>Then I am logged out</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

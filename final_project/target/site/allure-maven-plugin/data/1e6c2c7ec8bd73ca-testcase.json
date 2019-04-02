@@ -1,0 +1,47 @@
+{
+  "uid" : "1e6c2c7ec8bd73ca",
+  "name" : "Then Message is posted",
+  "title" : "Then message is posted",
+  "time" : {
+    "start" : 1554234351773,
+    "stop" : 1554234351774,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "3dced4db4429a40a",
+    "name" : "Scenario: Post message on the wall",
+    "title" : "Scenario: post message on the wall"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook-Air.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Scenario: Post message on the wall"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7435@Alenas-MacBook-Air.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

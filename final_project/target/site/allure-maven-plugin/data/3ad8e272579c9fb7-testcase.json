@@ -1,0 +1,47 @@
+{
+  "uid" : "3ad8e272579c9fb7",
+  "name" : "When I log in the account",
+  "title" : "When I log in the account",
+  "time" : {
+    "start" : 1554234306421,
+    "stop" : 1554234306421,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "6229af2854f4ec54",
+    "name" : "Scenario: Put email to spam",
+    "title" : "Scenario: put email to spam"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Scenario: Put email to spam"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook-Air.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7435@Alenas-MacBook-Air.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

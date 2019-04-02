@@ -1,0 +1,47 @@
+{
+  "uid" : "704a4ca93b27e0d6",
+  "name" : "When I enter addressees, subject, text and click Send",
+  "title" : "When I enter addressees, subject, text and click send",
+  "time" : {
+    "start" : 1554234329295,
+    "stop" : 1554234329296,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "788c52918d4ed605",
+    "name" : "Scenario: Send email to several addressees",
+    "title" : "Scenario: send email to several addressees"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Scenario: Send email to several addressees"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook-Air.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7435@Alenas-MacBook-Air.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,1216 @@
+23:47:35,884  INFO main Logout_Steps:login:32 - We have successfully logged in
+23:47:37,200  INFO main Logout_Steps:isLoggedOut:43 - We have successfully logged out
+00:05:30,361  INFO main Logout_Steps:login:30 - We have successfully logged in
+00:05:31,745  INFO main Logout_Steps:isLoggedOut:41 - We have successfully logged out
+00:05:40,135  INFO main PutEmailToSpam_Steps:login:32 - We have successfully logged in
+00:05:41,448  INFO main PutEmailToSpam_Steps:isNotificationDisplayed:44 - We have moved an email to Spam
+00:06:02,882  INFO main MarkWithFlagsAndRemoveThem_Steps:login:32 - We have successfully logged in
+00:06:03,651  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsFlagged:47 - We have marked emails with flags
+00:06:04,588  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsUnflagged:61 - We have removed flags from emails
+00:07:51,144  INFO main SendEmailUsingFACADE_Steps:sendEmailToSeveralAdressees:15 - The email has been sent
+00:08:09,298  INFO main NegativeLoginTestWithTestNG_Steps:loginWithWrongCreds:37 - We have entered incorrect username/password
+00:08:09,902  INFO main NegativeLoginTestWithTestNG_Steps:isErrorMessagePresent:43 - Error message is displayed
+00:08:40,660  INFO main PutEmailFromSpamToInbox_Steps:login:32 - We have successfully logged in
+00:08:41,495  INFO main PutEmailFromSpamToInbox_Steps:goToSpam:39 - Spam section is opened
+00:08:42,326  INFO main PutEmailFromSpamToInbox_Steps:isNotificationPresent:51 - We have returned an email to Inbox
+00:14:11,340  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+00:14:11,376 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+00:14:11,403 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+00:14:11,406 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+00:14:11,472 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 0][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+00:14:11,476 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+00:14:11,486 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.74:443
+00:14:11,487 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.74:443 with timeout 0
+00:14:11,598 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+00:14:11,599 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+00:14:11,600 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+00:14:11,744 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+00:14:11,745 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+00:14:11,746 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+00:14:11,747 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+00:14:11,749 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+00:14:11,753 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+00:14:11,758 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:49879<->87.240.129.74:443
+00:14:11,758 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.post?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&message=Lena%27s+text&attachments=photo15919970_456239031&v=5.92 HTTP/1.1
+00:14:11,758 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+00:14:11,760 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+00:14:11,766 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-0 >> GET /method/wall.post?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&message=Lena%27s+text&attachments=photo15919970_456239031&v=5.92 HTTP/1.1
+00:14:11,766 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> Host: api.vk.com
+00:14:11,768 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> Connection: Keep-Alive
+00:14:11,769 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+00:14:11,770 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+00:14:11,771 DEBUG main wire:wire:73 - http-outgoing-0 >> "GET /method/wall.post?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&message=Lena%27s+text&attachments=photo15919970_456239031&v=5.92 HTTP/1.1[\r][\n]"
+00:14:11,772 DEBUG main wire:wire:73 - http-outgoing-0 >> "Host: api.vk.com[\r][\n]"
+00:14:11,772 DEBUG main wire:wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+00:14:11,772 DEBUG main wire:wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+00:14:11,773 DEBUG main wire:wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+00:14:11,775 DEBUG main wire:wire:73 - http-outgoing-0 >> "[\r][\n]"
+00:14:11,899 DEBUG main wire:wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+00:14:11,899 DEBUG main wire:wire:73 - http-outgoing-0 << "Server: Internet Information Services[\r][\n]"
+00:14:11,900 DEBUG main wire:wire:73 - http-outgoing-0 << "Date: Sun, 31 Mar 2019 21:14:11 GMT[\r][\n]"
+00:14:11,901 DEBUG main wire:wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:14:11,901 DEBUG main wire:wire:73 - http-outgoing-0 << "Content-Length: 48[\r][\n]"
+00:14:11,902 DEBUG main wire:wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+00:14:11,904 DEBUG main wire:wire:73 - http-outgoing-0 << "X-Powered-By: PHP/3.18709[\r][\n]"
+00:14:11,906 DEBUG main wire:wire:73 - http-outgoing-0 << "Cache-control: no-store[\r][\n]"
+00:14:11,907 DEBUG main wire:wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+00:14:11,907 DEBUG main wire:wire:73 - http-outgoing-0 << "[\r][\n]"
+00:14:11,908 DEBUG main wire:wire:87 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2][0xaa]V*[0xc8]/.[0x89][0xcf]LQ[0xb2]253[0xac][0xad][0x5][0x0]r[0xab]n[0xf9][0x1c][0x0][0x0][0x0]"
+00:14:11,913 DEBUG main headers:onResponseReceived:122 - http-outgoing-0 << HTTP/1.1 200 OK
+00:14:11,914 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Server: Internet Information Services
+00:14:11,914 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Date: Sun, 31 Mar 2019 21:14:11 GMT
+00:14:11,915 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+00:14:11,915 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Content-Length: 48
+00:14:11,915 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Connection: keep-alive
+00:14:11,916 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << X-Powered-By: PHP/3.18709
+00:14:11,916 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Cache-control: no-store
+00:14:11,917 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Content-Encoding: gzip
+00:14:11,925 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+00:14:11,935 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 0][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+00:14:11,936 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-0: set socket timeout to 0
+00:14:11,937 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 0][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+00:14:12,040  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:80 - A message has been posted on the wall
+00:14:19,276  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+00:14:19,278 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+00:14:19,279 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+00:14:19,280 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+00:14:19,280 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 1][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+00:14:19,281 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+00:14:19,282 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.74:443
+00:14:19,285 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.74:443 with timeout 0
+00:14:19,326 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+00:14:19,327 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+00:14:19,327 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+00:14:19,400 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+00:14:19,401 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+00:14:19,401 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+00:14:19,403 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+00:14:19,403 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+00:14:19,403 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+00:14:19,404 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:49945<->87.240.129.74:443
+00:14:19,405 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.edit?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=561&message=Lena%27s+EDITED+text&attachments=photo15919970_377416426&v=5.92 HTTP/1.1
+00:14:19,405 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+00:14:19,405 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+00:14:19,406 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-1 >> GET /method/wall.edit?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=561&message=Lena%27s+EDITED+text&attachments=photo15919970_377416426&v=5.92 HTTP/1.1
+00:14:19,407 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> Host: api.vk.com
+00:14:19,407 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> Connection: Keep-Alive
+00:14:19,407 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+00:14:19,408 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+00:14:19,408 DEBUG main wire:wire:73 - http-outgoing-1 >> "GET /method/wall.edit?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=561&message=Lena%27s+EDITED+text&attachments=photo15919970_377416426&v=5.92 HTTP/1.1[\r][\n]"
+00:14:19,408 DEBUG main wire:wire:73 - http-outgoing-1 >> "Host: api.vk.com[\r][\n]"
+00:14:19,409 DEBUG main wire:wire:73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+00:14:19,409 DEBUG main wire:wire:73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+00:14:19,409 DEBUG main wire:wire:73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+00:14:19,410 DEBUG main wire:wire:73 - http-outgoing-1 >> "[\r][\n]"
+00:14:19,523 DEBUG main wire:wire:73 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+00:14:19,524 DEBUG main wire:wire:73 - http-outgoing-1 << "Server: Internet Information Services[\r][\n]"
+00:14:19,525 DEBUG main wire:wire:73 - http-outgoing-1 << "Date: Sun, 31 Mar 2019 21:14:19 GMT[\r][\n]"
+00:14:19,526 DEBUG main wire:wire:73 - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:14:19,526 DEBUG main wire:wire:73 - http-outgoing-1 << "Content-Length: 34[\r][\n]"
+00:14:19,527 DEBUG main wire:wire:73 - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+00:14:19,527 DEBUG main wire:wire:73 - http-outgoing-1 << "X-Powered-By: PHP/3.18709[\r][\n]"
+00:14:19,528 DEBUG main wire:wire:73 - http-outgoing-1 << "Cache-control: no-store[\r][\n]"
+00:14:19,528 DEBUG main wire:wire:73 - http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
+00:14:19,529 DEBUG main wire:wire:73 - http-outgoing-1 << "[\r][\n]"
+00:14:19,529 DEBUG main wire:wire:87 - http-outgoing-1 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2]2[0xac][0x5][0x0][0xb3][0xd8][0xe9]f[0xe][0x0][0x0][0x0]"
+00:14:19,530 DEBUG main headers:onResponseReceived:122 - http-outgoing-1 << HTTP/1.1 200 OK
+00:14:19,530 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Server: Internet Information Services
+00:14:19,531 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Date: Sun, 31 Mar 2019 21:14:19 GMT
+00:14:19,531 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+00:14:19,532 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Content-Length: 34
+00:14:19,533 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Connection: keep-alive
+00:14:19,534 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << X-Powered-By: PHP/3.18709
+00:14:19,534 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Cache-control: no-store
+00:14:19,534 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Content-Encoding: gzip
+00:14:19,535 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+00:14:19,537 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 1][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+00:14:19,538 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-1: set socket timeout to 0
+00:14:19,538 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 1][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+00:14:20,141  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:106 - The message has been edited
+00:14:26,827  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+00:14:26,830 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+00:14:26,831 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+00:14:26,831 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+00:14:26,832 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 2][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+00:14:26,832 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+00:14:26,832 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.74:443
+00:14:26,833 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.74:443 with timeout 0
+00:14:26,875 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+00:14:26,876 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+00:14:26,877 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+00:14:26,961 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+00:14:26,961 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+00:14:26,961 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+00:14:26,962 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+00:14:26,962 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+00:14:26,963 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+00:14:26,963 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:50011<->87.240.129.74:443
+00:14:26,963 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.createComment?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=561&message=Lena%27s+comment&v=5.92 HTTP/1.1
+00:14:26,964 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+00:14:26,964 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+00:14:26,964 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-2 >> GET /method/wall.createComment?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=561&message=Lena%27s+comment&v=5.92 HTTP/1.1
+00:14:26,964 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> Host: api.vk.com
+00:14:26,965 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> Connection: Keep-Alive
+00:14:26,965 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+00:14:26,965 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+00:14:26,965 DEBUG main wire:wire:73 - http-outgoing-2 >> "GET /method/wall.createComment?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=561&message=Lena%27s+comment&v=5.92 HTTP/1.1[\r][\n]"
+00:14:26,965 DEBUG main wire:wire:73 - http-outgoing-2 >> "Host: api.vk.com[\r][\n]"
+00:14:26,966 DEBUG main wire:wire:73 - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+00:14:26,966 DEBUG main wire:wire:73 - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+00:14:26,966 DEBUG main wire:wire:73 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+00:14:26,966 DEBUG main wire:wire:73 - http-outgoing-2 >> "[\r][\n]"
+00:14:27,043 DEBUG main wire:wire:73 - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+00:14:27,043 DEBUG main wire:wire:73 - http-outgoing-2 << "Server: Internet Information Services[\r][\n]"
+00:14:27,044 DEBUG main wire:wire:73 - http-outgoing-2 << "Date: Sun, 31 Mar 2019 21:14:27 GMT[\r][\n]"
+00:14:27,045 DEBUG main wire:wire:73 - http-outgoing-2 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:14:27,045 DEBUG main wire:wire:73 - http-outgoing-2 << "Content-Length: 68[\r][\n]"
+00:14:27,045 DEBUG main wire:wire:73 - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+00:14:27,046 DEBUG main wire:wire:73 - http-outgoing-2 << "X-Powered-By: PHP/3.18709[\r][\n]"
+00:14:27,046 DEBUG main wire:wire:73 - http-outgoing-2 << "Cache-control: no-store[\r][\n]"
+00:14:27,046 DEBUG main wire:wire:73 - http-outgoing-2 << "Content-Encoding: gzip[\r][\n]"
+00:14:27,047 DEBUG main wire:wire:73 - http-outgoing-2 << "[\r][\n]"
+00:14:27,047 DEBUG main wire:wire:87 - http-outgoing-2 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2][0xaa]VJ[0xce][0xcf][0xcd]M[0xcd]+[0x89][0xcf]LQ[0xb2]253[0xd2]Q*H,[0x2][0xf2][0x8b][0xe3][0x8b]K[0x12][0x93][0xb3][0x95][0xac][0xa2]ckk[0x1][0x9e][0xd4][0xc4][0xfb]2[0x0][0x0][0x0]"
+00:14:27,048 DEBUG main headers:onResponseReceived:122 - http-outgoing-2 << HTTP/1.1 200 OK
+00:14:27,048 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Server: Internet Information Services
+00:14:27,048 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Date: Sun, 31 Mar 2019 21:14:27 GMT
+00:14:27,048 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Content-Type: application/json; charset=utf-8
+00:14:27,049 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Content-Length: 68
+00:14:27,049 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Connection: keep-alive
+00:14:27,049 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << X-Powered-By: PHP/3.18709
+00:14:27,050 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Cache-control: no-store
+00:14:27,050 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Content-Encoding: gzip
+00:14:27,050 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+00:14:27,051 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 2][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+00:14:27,052 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-2: set socket timeout to 0
+00:14:27,052 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 2][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+00:14:27,106  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:126 - A comment has been added
+00:14:27,256 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:408 - Connection manager is shutting down
+00:14:27,257 DEBUG Finalizer DefaultManagedHttpClientConnection:close:79 - http-outgoing-1: Close connection
+00:14:27,258 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:414 - Connection manager shut down
+00:14:27,259 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:408 - Connection manager is shutting down
+00:14:27,259 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:414 - Connection manager shut down
+00:14:27,260 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:408 - Connection manager is shutting down
+00:14:27,260 DEBUG Finalizer DefaultManagedHttpClientConnection:close:79 - http-outgoing-2: Close connection
+00:14:27,261 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:414 - Connection manager shut down
+00:14:34,585  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+00:14:34,590 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+00:14:34,591 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+00:14:34,591 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+00:14:34,592 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 3][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+00:14:34,592 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+00:14:34,592 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.74:443
+00:14:34,593 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.74:443 with timeout 0
+00:14:34,636 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+00:14:34,636 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+00:14:34,637 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+00:14:34,726 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+00:14:34,743 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+00:14:34,744 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+00:14:34,744 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+00:14:34,744 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+00:14:34,744 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+00:14:34,744 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:50077<->87.240.129.74:443
+00:14:34,745 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.delete?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=561&v=5.92 HTTP/1.1
+00:14:34,745 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+00:14:34,745 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+00:14:34,745 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-3 >> GET /method/wall.delete?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=561&v=5.92 HTTP/1.1
+00:14:34,746 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> Host: api.vk.com
+00:14:34,746 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> Connection: Keep-Alive
+00:14:34,746 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+00:14:34,746 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+00:14:34,746 DEBUG main wire:wire:73 - http-outgoing-3 >> "GET /method/wall.delete?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=561&v=5.92 HTTP/1.1[\r][\n]"
+00:14:34,747 DEBUG main wire:wire:73 - http-outgoing-3 >> "Host: api.vk.com[\r][\n]"
+00:14:34,747 DEBUG main wire:wire:73 - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+00:14:34,747 DEBUG main wire:wire:73 - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+00:14:34,748 DEBUG main wire:wire:73 - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+00:14:34,748 DEBUG main wire:wire:73 - http-outgoing-3 >> "[\r][\n]"
+00:14:34,799 DEBUG main wire:wire:73 - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+00:14:34,800 DEBUG main wire:wire:73 - http-outgoing-3 << "Server: Internet Information Services[\r][\n]"
+00:14:34,800 DEBUG main wire:wire:73 - http-outgoing-3 << "Date: Sun, 31 Mar 2019 21:14:34 GMT[\r][\n]"
+00:14:34,800 DEBUG main wire:wire:73 - http-outgoing-3 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:14:34,800 DEBUG main wire:wire:73 - http-outgoing-3 << "Content-Length: 34[\r][\n]"
+00:14:34,801 DEBUG main wire:wire:73 - http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+00:14:34,801 DEBUG main wire:wire:73 - http-outgoing-3 << "X-Powered-By: PHP/3.18709[\r][\n]"
+00:14:34,801 DEBUG main wire:wire:73 - http-outgoing-3 << "Cache-control: no-store[\r][\n]"
+00:14:34,801 DEBUG main wire:wire:73 - http-outgoing-3 << "Content-Encoding: gzip[\r][\n]"
+00:14:34,802 DEBUG main wire:wire:73 - http-outgoing-3 << "[\r][\n]"
+00:14:34,802 DEBUG main wire:wire:87 - http-outgoing-3 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2]2[0xac][0x5][0x0][0xb3][0xd8][0xe9]f[0xe][0x0][0x0][0x0]"
+00:14:34,803 DEBUG main headers:onResponseReceived:122 - http-outgoing-3 << HTTP/1.1 200 OK
+00:14:34,803 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Server: Internet Information Services
+00:14:34,803 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Date: Sun, 31 Mar 2019 21:14:34 GMT
+00:14:34,803 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Content-Type: application/json; charset=utf-8
+00:14:34,804 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Content-Length: 34
+00:14:34,804 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Connection: keep-alive
+00:14:34,805 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << X-Powered-By: PHP/3.18709
+00:14:34,805 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Cache-control: no-store
+00:14:34,805 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Content-Encoding: gzip
+00:14:34,806 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+00:14:34,806 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 3][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+00:14:34,807 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-3: set socket timeout to 0
+00:14:34,807 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 3][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+00:14:34,897  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:145 - The message has been deleted
+00:16:07,949  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+00:16:08,943  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:80 - A message has been posted on the wall
+00:16:15,948  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+00:16:17,799  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:106 - The message has been edited
+00:16:24,874  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+00:16:25,125  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:126 - A comment has been added
+00:16:32,574  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+00:16:32,839  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:145 - The message has been deleted
+15:43:05,426  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+15:43:06,170  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:80 - A message has been posted on the wall
+15:43:14,165  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+15:43:14,896  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:106 - The message has been edited
+15:43:22,111  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+15:43:22,415  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:126 - A comment has been added
+15:43:29,377  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+15:43:29,607  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:145 - The message has been deleted
+15:51:44,814  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+15:51:45,862  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:80 - A message has been posted on the wall
+15:51:52,585  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+15:51:54,435  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:106 - The message has been edited
+15:52:01,540  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+15:52:01,856  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:126 - A comment has been added
+15:52:08,876  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+15:52:09,175  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:145 - The message has been deleted
+16:06:32,556  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+16:06:34,193  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:80 - A message has been posted on the wall
+16:06:42,069  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+16:06:42,997  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:106 - The message has been edited
+16:06:50,569  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+16:06:50,887  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:126 - A comment has been added
+16:06:58,051  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+16:06:58,294  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:145 - The message has been deleted
+16:39:33,615  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+16:39:35,230  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:80 - A message has been posted on the wall
+16:39:42,629  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+16:39:42,926  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:106 - The message has been edited
+16:39:49,493  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+16:39:49,785  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:126 - A comment has been added
+16:39:56,321  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+16:39:56,560  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:145 - The message has been deleted
+16:44:58,790  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+16:45:00,133  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:80 - A message has been posted on the wall
+16:45:06,608  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+16:45:08,531  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:106 - The message has been edited
+16:45:14,979  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+16:45:15,273  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:126 - A comment has been added
+16:45:21,820  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+16:45:22,070  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:145 - The message has been deleted
+17:15:01,387  INFO main Logout_Steps:login:30 - We have successfully logged in
+17:15:03,131  INFO main Logout_Steps:isLoggedOut:41 - We have successfully logged out
+17:15:11,277  INFO main PutEmailToSpam_Steps:login:32 - We have successfully logged in
+17:15:12,528  INFO main PutEmailToSpam_Steps:isNotificationDisplayed:44 - We have moved an email to Spam
+17:15:21,245  INFO main MarkWithFlagsAndRemoveThem_Steps:login:32 - We have successfully logged in
+17:15:22,460  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsFlagged:47 - We have marked emails with flags
+17:15:23,542  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsUnflagged:61 - We have removed flags from emails
+17:15:36,661  INFO main SendEmailUsingFACADE_Steps:sendEmailToSeveralAdressees:15 - The email has been sent
+17:15:40,385  INFO main NegativeLoginTestWithTestNG_Steps:loginWithWrongCreds:34 - Wrong credentials have been entered
+17:15:40,992  INFO main NegativeLoginTestWithTestNG_Steps:isErrorMessagePresent:40 - Error message is displayed
+17:15:49,668  INFO main PutEmailFromSpamToInbox_Steps:login:32 - We have successfully logged in
+17:15:50,841  INFO main PutEmailFromSpamToInbox_Steps:goToSpam:39 - Spam section is opened
+17:15:51,784  INFO main PutEmailFromSpamToInbox_Steps:isNotificationPresent:51 - We have returned an email to Inbox
+17:15:59,186  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+17:16:00,356  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:80 - A message has been posted on the wall
+17:16:08,946  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+17:16:09,218  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:106 - The message has been edited
+17:16:15,861  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+17:16:16,160  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:126 - A comment has been added
+17:16:23,839  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:61 - Denis' VK page is opened
+17:16:24,096  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:145 - The message has been deleted
+17:31:10,469  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:65 - Denis' VK page is opened
+17:31:12,105  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:92 - A message has been posted on the wall
+17:31:19,168  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:65 - Denis' VK page is opened
+17:31:20,601  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:118 - The message has been edited
+17:31:27,754  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:65 - Denis' VK page is opened
+17:31:28,108  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:138 - A comment has been added
+17:31:35,243  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:65 - Denis' VK page is opened
+17:31:35,573  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:157 - The message has been deleted
+17:33:22,659  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:65 - Denis' VK page is opened
+17:33:23,580  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:86 - Screenshot has been taken
+17:33:24,171  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:92 - A message has been posted on the wall
+17:33:31,148  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:65 - Denis' VK page is opened
+17:33:32,469  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:118 - The message has been edited
+17:33:39,295  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:65 - Denis' VK page is opened
+17:33:39,612  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:138 - A comment has been added
+17:33:46,474  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:65 - Denis' VK page is opened
+17:33:46,759  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:157 - The message has been deleted
+17:45:56,215  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:66 - Denis' VK page is opened
+17:45:57,199  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:93 - Screenshot has been taken
+17:45:57,268  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:99 - A message has been posted on the wall
+17:46:04,388  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:66 - Denis' VK page is opened
+17:46:05,258  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:125 - The message has been edited
+17:46:11,980  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:66 - Denis' VK page is opened
+17:46:12,297  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:145 - A comment has been added
+17:46:19,408  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:66 - Denis' VK page is opened
+17:46:19,679  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:164 - The message has been deleted
+17:48:12,270  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+17:48:13,315  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+17:48:13,921  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:87 - A message has been posted on the wall
+17:48:21,491  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+17:48:22,125  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+17:48:23,228  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:113 - The message has been edited
+17:48:30,283  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+17:48:31,098  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+17:48:31,161  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:133 - A comment has been added
+17:48:38,304  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+17:48:38,930  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+17:48:39,002  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:152 - The message has been deleted
+18:04:33,911  INFO main Logout_Steps:login:33 - We have successfully logged in
+18:04:35,502  INFO main Logout_Steps:makeScreenshot:44 - Screenshot has been taken
+18:04:35,561  INFO main Logout_Steps:isLoggedOut:50 - We have successfully logged out
+18:04:43,642  INFO main PutEmailToSpam_Steps:login:35 - We have successfully logged in
+18:04:44,741  INFO main PutEmailToSpam_Steps:makeScreenshot:47 - Screenshot has been taken
+18:04:44,840  INFO main PutEmailToSpam_Steps:isNotificationDisplayed:53 - We have moved an email to Spam
+18:04:52,951  INFO main MarkWithFlagsAndRemoveThem_Steps:login:35 - We have successfully logged in
+18:04:54,109  INFO main MarkWithFlagsAndRemoveThem_Steps:makeScreenshot:62 - Screenshot has been taken
+18:04:54,406  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsFlagged:50 - We have marked emails with flags
+18:04:55,441  INFO main MarkWithFlagsAndRemoveThem_Steps:makeScreenshot:62 - Screenshot has been taken
+18:04:55,710  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsUnflagged:70 - We have removed flags from emails
+18:05:08,154  INFO main SendEmailUsingFACADE_Steps:sendEmailToSeveralAdressees:15 - The email has been sent
+18:05:11,654  INFO main NegativeLoginTestWithTestNG_Steps:loginWithWrongCreds:35 - Wrong credentials have been entered
+18:05:12,177  INFO main NegativeLoginTestWithTestNG_Steps:makeScreenshot:41 - Screenshot has been taken
+18:05:12,239  INFO main NegativeLoginTestWithTestNG_Steps:isErrorMessagePresent:47 - Error message is displayed
+18:05:20,022  INFO main PutEmailFromSpamToInbox_Steps:login:35 - We have successfully logged in
+18:05:20,866  INFO main PutEmailFromSpamToInbox_Steps:goToSpam:42 - Spam section is opened
+18:05:21,745  INFO main PutEmailFromSpamToInbox_Steps:makeScreenshot:54 - Screenshot has been taken
+18:05:21,854  INFO main PutEmailFromSpamToInbox_Steps:isNotificationPresent:60 - We have returned an email to Inbox
+18:05:28,894  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+18:05:29,756  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+18:05:30,877  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:87 - A message has been posted on the wall
+18:05:37,567  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+18:05:38,365  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+18:05:38,469  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:113 - The message has been edited
+18:05:45,558  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+18:05:46,247  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+18:05:46,301  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:133 - A comment has been added
+18:05:54,454  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+18:05:55,038  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+13:03:09,719  INFO main Logout_Steps:login:33 - We have successfully logged in
+13:03:11,590  INFO main Logout_Steps:makeScreenshot:44 - Screenshot has been taken
+13:03:11,645  INFO main Logout_Steps:isLoggedOut:50 - We have successfully logged out
+13:03:21,152  INFO main PutEmailToSpam_Steps:login:35 - We have successfully logged in
+13:03:22,077  INFO main PutEmailToSpam_Steps:makeScreenshot:47 - Screenshot has been taken
+13:03:22,163  INFO main PutEmailToSpam_Steps:isNotificationDisplayed:53 - We have moved an email to Spam
+13:03:31,016  INFO main MarkWithFlagsAndRemoveThem_Steps:login:35 - We have successfully logged in
+13:03:32,170  INFO main MarkWithFlagsAndRemoveThem_Steps:makeScreenshot:62 - Screenshot has been taken
+13:03:32,451  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsFlagged:50 - We have marked emails with flags
+13:03:33,449  INFO main MarkWithFlagsAndRemoveThem_Steps:makeScreenshot:62 - Screenshot has been taken
+13:03:33,677  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsUnflagged:70 - We have removed flags from emails
+13:03:47,009  INFO main SendEmailUsingFACADE_Steps:sendEmailToSeveralAdressees:15 - The email has been sent
+13:03:50,565  INFO main NegativeLoginTestWithTestNG_Steps:loginWithWrongCreds:35 - Wrong credentials have been entered
+13:03:51,042  INFO main NegativeLoginTestWithTestNG_Steps:makeScreenshot:41 - Screenshot has been taken
+13:03:51,106  INFO main NegativeLoginTestWithTestNG_Steps:isErrorMessagePresent:47 - Error message is displayed
+13:03:59,741  INFO main PutEmailFromSpamToInbox_Steps:login:35 - We have successfully logged in
+13:04:00,762  INFO main PutEmailFromSpamToInbox_Steps:goToSpam:42 - Spam section is opened
+13:04:01,361  INFO main PutEmailFromSpamToInbox_Steps:makeScreenshot:54 - Screenshot has been taken
+13:04:01,566  INFO main PutEmailFromSpamToInbox_Steps:isNotificationPresent:60 - We have returned an email to Inbox
+13:04:10,163  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+13:04:11,220  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+13:04:11,282  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:87 - A message has been posted on the wall
+13:04:19,850  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+13:04:20,565  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+13:04:20,614  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:113 - The message has been edited
+13:04:28,817  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+13:04:29,474  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+13:04:29,523  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:133 - A comment has been added
+13:04:38,171  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+13:04:38,781  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+13:04:38,828  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:152 - The message has been deleted
+13:08:38,107  INFO main Logout_Steps:login:33 - We have successfully logged in
+13:08:40,258  INFO main Logout_Steps:makeScreenshot:44 - Screenshot has been taken
+13:08:40,349  INFO main Logout_Steps:isLoggedOut:50 - We have successfully logged out
+13:08:49,720  INFO main PutEmailToSpam_Steps:login:35 - We have successfully logged in
+13:08:50,467  INFO main PutEmailToSpam_Steps:makeScreenshot:47 - Screenshot has been taken
+13:08:51,092  INFO main PutEmailToSpam_Steps:isNotificationDisplayed:53 - We have moved an email to Spam
+13:08:59,978  INFO main MarkWithFlagsAndRemoveThem_Steps:login:35 - We have successfully logged in
+13:09:01,095  INFO main MarkWithFlagsAndRemoveThem_Steps:makeScreenshot:62 - Screenshot has been taken
+13:09:01,473  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsFlagged:50 - We have marked emails with flags
+13:09:02,697  INFO main MarkWithFlagsAndRemoveThem_Steps:makeScreenshot:62 - Screenshot has been taken
+13:09:02,911  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsUnflagged:70 - We have removed flags from emails
+13:09:16,109  INFO main SendEmailUsingFACADE_Steps:sendEmailToSeveralAdressees:15 - The email has been sent
+13:09:19,486  INFO main NegativeLoginTestWithTestNG_Steps:loginWithWrongCreds:35 - Wrong credentials have been entered
+13:09:19,996  INFO main NegativeLoginTestWithTestNG_Steps:makeScreenshot:41 - Screenshot has been taken
+13:09:20,088  INFO main NegativeLoginTestWithTestNG_Steps:isErrorMessagePresent:47 - Error message is displayed
+13:09:28,680  INFO main PutEmailFromSpamToInbox_Steps:login:35 - We have successfully logged in
+13:09:29,472  INFO main PutEmailFromSpamToInbox_Steps:goToSpam:42 - Spam section is opened
+13:09:30,290  INFO main PutEmailFromSpamToInbox_Steps:makeScreenshot:54 - Screenshot has been taken
+13:09:30,367  INFO main PutEmailFromSpamToInbox_Steps:isNotificationPresent:60 - We have returned an email to Inbox
+13:09:39,070  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+13:09:40,135  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+13:09:40,210  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:87 - A message has been posted on the wall
+13:09:48,486  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+13:09:49,198  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+13:09:50,293  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:113 - The message has been edited
+13:09:58,972  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+13:09:59,603  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+13:09:59,676  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:133 - A comment has been added
+13:10:08,566  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+13:10:09,160  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+13:10:09,214  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:152 - The message has been deleted
+22:37:51,401  INFO main Logout_Steps:login:33 - We have successfully logged in
+22:37:52,773  INFO main Logout_Steps:makeScreenshot:44 - Screenshot has been taken
+22:37:52,830  INFO main Logout_Steps:isLoggedOut:50 - We have successfully logged out
+22:38:00,677  INFO main PutEmailToSpam_Steps:login:35 - We have successfully logged in
+22:38:01,524  INFO main PutEmailToSpam_Steps:makeScreenshot:47 - Screenshot has been taken
+22:38:01,597  INFO main PutEmailToSpam_Steps:isNotificationDisplayed:53 - We have moved an email to Spam
+22:38:09,658  INFO main MarkWithFlagsAndRemoveThem_Steps:login:35 - We have successfully logged in
+22:38:10,762  INFO main MarkWithFlagsAndRemoveThem_Steps:makeScreenshot:62 - Screenshot has been taken
+22:38:11,041  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsFlagged:50 - We have marked emails with flags
+22:38:12,017  INFO main MarkWithFlagsAndRemoveThem_Steps:makeScreenshot:62 - Screenshot has been taken
+22:38:12,308  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsUnflagged:70 - We have removed flags from emails
+22:38:24,231  INFO main SendEmailUsingFACADE_Steps:sendEmailToSeveralAdressees:15 - The email has been sent
+22:38:27,669  INFO main NegativeLoginTestWithTestNG_Steps:loginWithWrongCreds:35 - Wrong credentials have been entered
+22:38:28,113  INFO main NegativeLoginTestWithTestNG_Steps:makeScreenshot:41 - Screenshot has been taken
+22:38:28,184  INFO main NegativeLoginTestWithTestNG_Steps:isErrorMessagePresent:47 - Error message is displayed
+22:38:35,866  INFO main PutEmailFromSpamToInbox_Steps:login:35 - We have successfully logged in
+22:38:36,860  INFO main PutEmailFromSpamToInbox_Steps:goToSpam:42 - Spam section is opened
+22:38:37,496  INFO main PutEmailFromSpamToInbox_Steps:makeScreenshot:54 - Screenshot has been taken
+22:38:37,588  INFO main PutEmailFromSpamToInbox_Steps:isNotificationPresent:60 - We have returned an email to Inbox
+22:38:45,642  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+22:38:45,690 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+22:38:45,717 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+22:38:45,721 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:38:45,757 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 0][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:38:45,761 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+22:38:45,769 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.177:443
+22:38:45,769 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.177:443 with timeout 0
+22:38:45,877 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:38:45,878 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+22:38:45,878 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+22:38:46,049 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+22:38:46,049 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+22:38:46,050 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+22:38:46,051 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+22:38:46,052 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+22:38:46,054 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:38:46,062 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:49517<->87.240.129.177:443
+22:38:46,063 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.post?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&message=Lena%27s+text&attachments=photo15919970_456239031&v=5.92 HTTP/1.1
+22:38:46,063 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+22:38:46,065 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+22:38:46,067 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-0 >> GET /method/wall.post?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&message=Lena%27s+text&attachments=photo15919970_456239031&v=5.92 HTTP/1.1
+22:38:46,068 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> Host: api.vk.com
+22:38:46,068 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> Connection: Keep-Alive
+22:38:46,070 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+22:38:46,070 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+22:38:46,071 DEBUG main wire:wire:73 - http-outgoing-0 >> "GET /method/wall.post?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&message=Lena%27s+text&attachments=photo15919970_456239031&v=5.92 HTTP/1.1[\r][\n]"
+22:38:46,071 DEBUG main wire:wire:73 - http-outgoing-0 >> "Host: api.vk.com[\r][\n]"
+22:38:46,072 DEBUG main wire:wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+22:38:46,072 DEBUG main wire:wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+22:38:46,073 DEBUG main wire:wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:38:46,073 DEBUG main wire:wire:73 - http-outgoing-0 >> "[\r][\n]"
+22:38:46,184 DEBUG main wire:wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+22:38:46,185 DEBUG main wire:wire:73 - http-outgoing-0 << "Server: Internet Information Services[\r][\n]"
+22:38:46,186 DEBUG main wire:wire:73 - http-outgoing-0 << "Date: Tue, 02 Apr 2019 19:38:37 GMT[\r][\n]"
+22:38:46,186 DEBUG main wire:wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:38:46,186 DEBUG main wire:wire:73 - http-outgoing-0 << "Content-Length: 48[\r][\n]"
+22:38:46,187 DEBUG main wire:wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+22:38:46,187 DEBUG main wire:wire:73 - http-outgoing-0 << "X-Powered-By: PHP/3.18744[\r][\n]"
+22:38:46,187 DEBUG main wire:wire:73 - http-outgoing-0 << "Cache-control: no-store[\r][\n]"
+22:38:46,187 DEBUG main wire:wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+22:38:46,187 DEBUG main wire:wire:73 - http-outgoing-0 << "[\r][\n]"
+22:38:46,188 DEBUG main wire:wire:87 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2][0xaa]V*[0xc8]/.[0x89][0xcf]LQ[0xb2]232[0xac][0xad][0x5][0x0][0xf5]F[0xac]1[0x1c][0x0][0x0][0x0]"
+22:38:46,190 DEBUG main headers:onResponseReceived:122 - http-outgoing-0 << HTTP/1.1 200 OK
+22:38:46,190 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Server: Internet Information Services
+22:38:46,191 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Date: Tue, 02 Apr 2019 19:38:37 GMT
+22:38:46,191 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+22:38:46,191 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Content-Length: 48
+22:38:46,191 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Connection: keep-alive
+22:38:46,191 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << X-Powered-By: PHP/3.18744
+22:38:46,192 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Cache-control: no-store
+22:38:46,192 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Content-Encoding: gzip
+22:38:46,195 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+22:38:46,203 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 0][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+22:38:46,203 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-0: set socket timeout to 0
+22:38:46,203 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 0][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:38:46,617  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+22:38:46,683  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:87 - A message has been posted on the wall
+22:38:54,854  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+22:38:54,856 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+22:38:54,857 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+22:38:54,857 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:38:54,858 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 1][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:38:54,858 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+22:38:54,858 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.177:443
+22:38:54,859 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.177:443 with timeout 0
+22:38:54,897 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:38:54,898 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+22:38:54,899 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+22:38:54,992 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+22:38:54,993 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+22:38:54,993 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+22:38:54,993 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+22:38:54,994 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+22:38:54,994 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:38:54,995 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:49578<->87.240.129.177:443
+22:38:54,995 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.edit?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=621&message=Lena%27s+EDITED+text&attachments=photo15919970_377416426&v=5.92 HTTP/1.1
+22:38:54,996 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+22:38:54,996 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+22:38:54,996 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-1 >> GET /method/wall.edit?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=621&message=Lena%27s+EDITED+text&attachments=photo15919970_377416426&v=5.92 HTTP/1.1
+22:38:54,997 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> Host: api.vk.com
+22:38:54,997 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> Connection: Keep-Alive
+22:38:54,997 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+22:38:54,998 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+22:38:54,998 DEBUG main wire:wire:73 - http-outgoing-1 >> "GET /method/wall.edit?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=621&message=Lena%27s+EDITED+text&attachments=photo15919970_377416426&v=5.92 HTTP/1.1[\r][\n]"
+22:38:54,999 DEBUG main wire:wire:73 - http-outgoing-1 >> "Host: api.vk.com[\r][\n]"
+22:38:54,999 DEBUG main wire:wire:73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+22:38:54,999 DEBUG main wire:wire:73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+22:38:55,000 DEBUG main wire:wire:73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:38:55,000 DEBUG main wire:wire:73 - http-outgoing-1 >> "[\r][\n]"
+22:38:55,086 DEBUG main wire:wire:73 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+22:38:55,086 DEBUG main wire:wire:73 - http-outgoing-1 << "Server: Internet Information Services[\r][\n]"
+22:38:55,087 DEBUG main wire:wire:73 - http-outgoing-1 << "Date: Tue, 02 Apr 2019 19:38:46 GMT[\r][\n]"
+22:38:55,088 DEBUG main wire:wire:73 - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:38:55,088 DEBUG main wire:wire:73 - http-outgoing-1 << "Content-Length: 34[\r][\n]"
+22:38:55,088 DEBUG main wire:wire:73 - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+22:38:55,089 DEBUG main wire:wire:73 - http-outgoing-1 << "X-Powered-By: PHP/3.18744[\r][\n]"
+22:38:55,089 DEBUG main wire:wire:73 - http-outgoing-1 << "Cache-control: no-store[\r][\n]"
+22:38:55,089 DEBUG main wire:wire:73 - http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
+22:38:55,090 DEBUG main wire:wire:73 - http-outgoing-1 << "[\r][\n]"
+22:38:55,090 DEBUG main wire:wire:87 - http-outgoing-1 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2]2[0xac][0x5][0x0][0xb3][0xd8][0xe9]f[0xe][0x0][0x0][0x0]"
+22:38:55,091 DEBUG main headers:onResponseReceived:122 - http-outgoing-1 << HTTP/1.1 200 OK
+22:38:55,092 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Server: Internet Information Services
+22:38:55,092 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Date: Tue, 02 Apr 2019 19:38:46 GMT
+22:38:55,092 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+22:38:55,093 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Content-Length: 34
+22:38:55,093 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Connection: keep-alive
+22:38:55,094 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << X-Powered-By: PHP/3.18744
+22:38:55,094 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Cache-control: no-store
+22:38:55,095 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Content-Encoding: gzip
+22:38:55,096 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+22:38:55,097 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 1][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+22:38:55,097 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-1: set socket timeout to 0
+22:38:55,098 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 1][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:38:55,489 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:408 - Connection manager is shutting down
+22:38:55,490 DEBUG Finalizer DefaultManagedHttpClientConnection:close:79 - http-outgoing-0: Close connection
+22:38:55,492 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:414 - Connection manager shut down
+22:38:55,511  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+22:38:56,080  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:113 - The message has been edited
+22:38:55,081  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+22:38:55,085 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+22:38:55,085 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+22:38:55,086 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:38:55,086 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 2][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:38:55,087 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+22:38:55,087 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.177:443
+22:38:55,088 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.177:443 with timeout 0
+22:38:55,125 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:38:55,125 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+22:38:55,126 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+22:38:55,190 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+22:38:55,191 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+22:38:55,191 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+22:38:55,192 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+22:38:55,192 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+22:38:55,193 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:38:55,193 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:49640<->87.240.129.177:443
+22:38:55,194 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.createComment?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=621&message=Lena%27s+comment&v=5.92 HTTP/1.1
+22:38:55,195 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+22:38:55,196 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+22:38:55,196 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-2 >> GET /method/wall.createComment?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=621&message=Lena%27s+comment&v=5.92 HTTP/1.1
+22:38:55,196 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> Host: api.vk.com
+22:38:55,197 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> Connection: Keep-Alive
+22:38:55,197 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+22:38:55,198 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+22:38:55,198 DEBUG main wire:wire:73 - http-outgoing-2 >> "GET /method/wall.createComment?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=621&message=Lena%27s+comment&v=5.92 HTTP/1.1[\r][\n]"
+22:38:55,199 DEBUG main wire:wire:73 - http-outgoing-2 >> "Host: api.vk.com[\r][\n]"
+22:38:55,199 DEBUG main wire:wire:73 - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+22:38:55,199 DEBUG main wire:wire:73 - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+22:38:55,200 DEBUG main wire:wire:73 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:38:55,200 DEBUG main wire:wire:73 - http-outgoing-2 >> "[\r][\n]"
+22:38:55,322 DEBUG main wire:wire:73 - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+22:38:55,322 DEBUG main wire:wire:73 - http-outgoing-2 << "Server: Internet Information Services[\r][\n]"
+22:38:55,323 DEBUG main wire:wire:73 - http-outgoing-2 << "Date: Tue, 02 Apr 2019 19:38:55 GMT[\r][\n]"
+22:38:55,323 DEBUG main wire:wire:73 - http-outgoing-2 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:38:55,324 DEBUG main wire:wire:73 - http-outgoing-2 << "Content-Length: 68[\r][\n]"
+22:38:55,324 DEBUG main wire:wire:73 - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+22:38:55,324 DEBUG main wire:wire:73 - http-outgoing-2 << "X-Powered-By: PHP/3.18744[\r][\n]"
+22:38:55,325 DEBUG main wire:wire:73 - http-outgoing-2 << "Cache-control: no-store[\r][\n]"
+22:38:55,325 DEBUG main wire:wire:73 - http-outgoing-2 << "Content-Encoding: gzip[\r][\n]"
+22:38:55,326 DEBUG main wire:wire:73 - http-outgoing-2 << "[\r][\n]"
+22:38:55,326 DEBUG main wire:wire:87 - http-outgoing-2 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2][0xaa]VJ[0xce][0xcf][0xcd]M[0xcd]+[0x89][0xcf]LQ[0xb2]232[0xd2]Q*H,[0x2][0xf2][0x8b][0xe3][0x8b]K[0x12][0x93][0xb3][0x95][0xac][0xa2]ckk[0x1]%[0xdc][0x86][0xa3]2[0x0][0x0][0x0]"
+22:38:55,326 DEBUG main headers:onResponseReceived:122 - http-outgoing-2 << HTTP/1.1 200 OK
+22:38:55,326 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Server: Internet Information Services
+22:38:55,327 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Date: Tue, 02 Apr 2019 19:38:55 GMT
+22:38:55,327 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Content-Type: application/json; charset=utf-8
+22:38:55,327 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Content-Length: 68
+22:38:55,327 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Connection: keep-alive
+22:38:55,328 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << X-Powered-By: PHP/3.18744
+22:38:55,328 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Cache-control: no-store
+22:38:55,328 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Content-Encoding: gzip
+22:38:55,329 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+22:38:55,329 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 2][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+22:38:55,330 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-2: set socket timeout to 0
+22:38:55,330 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 2][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:38:55,734  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+22:38:55,790  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:133 - A comment has been added
+22:39:03,029  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+22:39:03,030 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+22:39:03,031 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+22:39:03,031 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:39:03,031 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 3][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:39:03,032 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+22:39:03,032 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.177:443
+22:39:03,032 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.177:443 with timeout 0
+22:39:03,072 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:39:03,072 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+22:39:03,073 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+22:39:03,142 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+22:39:03,142 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+22:39:03,143 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+22:39:03,144 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+22:39:03,145 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+22:39:03,145 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:39:03,146 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:49701<->87.240.129.177:443
+22:39:03,147 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.delete?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=621&v=5.92 HTTP/1.1
+22:39:03,147 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+22:39:03,148 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+22:39:03,148 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-3 >> GET /method/wall.delete?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=621&v=5.92 HTTP/1.1
+22:39:03,149 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> Host: api.vk.com
+22:39:03,149 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> Connection: Keep-Alive
+22:39:03,150 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+22:39:03,150 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+22:39:03,151 DEBUG main wire:wire:73 - http-outgoing-3 >> "GET /method/wall.delete?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=621&v=5.92 HTTP/1.1[\r][\n]"
+22:39:03,151 DEBUG main wire:wire:73 - http-outgoing-3 >> "Host: api.vk.com[\r][\n]"
+22:39:03,152 DEBUG main wire:wire:73 - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+22:39:03,152 DEBUG main wire:wire:73 - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+22:39:03,152 DEBUG main wire:wire:73 - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:39:03,153 DEBUG main wire:wire:73 - http-outgoing-3 >> "[\r][\n]"
+22:39:03,244 DEBUG main wire:wire:73 - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+22:39:03,244 DEBUG main wire:wire:73 - http-outgoing-3 << "Server: Internet Information Services[\r][\n]"
+22:39:03,245 DEBUG main wire:wire:73 - http-outgoing-3 << "Date: Tue, 02 Apr 2019 19:39:03 GMT[\r][\n]"
+22:39:03,245 DEBUG main wire:wire:73 - http-outgoing-3 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:39:03,246 DEBUG main wire:wire:73 - http-outgoing-3 << "Content-Length: 34[\r][\n]"
+22:39:03,246 DEBUG main wire:wire:73 - http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+22:39:03,247 DEBUG main wire:wire:73 - http-outgoing-3 << "X-Powered-By: PHP/3.18744[\r][\n]"
+22:39:03,247 DEBUG main wire:wire:73 - http-outgoing-3 << "Cache-control: no-store[\r][\n]"
+22:39:03,248 DEBUG main wire:wire:73 - http-outgoing-3 << "Content-Encoding: gzip[\r][\n]"
+22:39:03,248 DEBUG main wire:wire:73 - http-outgoing-3 << "[\r][\n]"
+22:39:03,249 DEBUG main wire:wire:87 - http-outgoing-3 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2]2[0xac][0x5][0x0][0xb3][0xd8][0xe9]f[0xe][0x0][0x0][0x0]"
+22:39:03,249 DEBUG main headers:onResponseReceived:122 - http-outgoing-3 << HTTP/1.1 200 OK
+22:39:03,250 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Server: Internet Information Services
+22:39:03,250 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Date: Tue, 02 Apr 2019 19:39:03 GMT
+22:39:03,251 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Content-Type: application/json; charset=utf-8
+22:39:03,251 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Content-Length: 34
+22:39:03,252 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Connection: keep-alive
+22:39:03,252 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << X-Powered-By: PHP/3.18744
+22:39:03,253 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Cache-control: no-store
+22:39:03,254 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Content-Encoding: gzip
+22:39:03,255 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+22:39:03,256 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 3][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+22:39:03,256 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-3: set socket timeout to 0
+22:39:03,257 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 3][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:39:03,639 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:408 - Connection manager is shutting down
+22:39:03,640 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:414 - Connection manager shut down
+22:39:03,640 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:408 - Connection manager is shutting down
+22:39:03,640 DEBUG Finalizer DefaultManagedHttpClientConnection:close:79 - http-outgoing-2: Close connection
+22:39:03,642 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:414 - Connection manager shut down
+22:39:03,643 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:408 - Connection manager is shutting down
+22:39:03,643 DEBUG Finalizer DefaultManagedHttpClientConnection:close:79 - http-outgoing-1: Close connection
+22:39:03,644 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:414 - Connection manager shut down
+22:39:03,659  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+22:39:03,709  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:152 - The message has been deleted
+22:41:07,785  INFO main Logout_Steps:login:33 - We have successfully logged in
+22:41:09,590  INFO main Logout_Steps:makeScreenshot:44 - Screenshot has been taken
+22:41:09,661  INFO main Logout_Steps:isLoggedOut:50 - We have successfully logged out
+22:41:17,327  INFO main PutEmailToSpam_Steps:login:35 - We have successfully logged in
+22:41:18,331  INFO main PutEmailToSpam_Steps:makeScreenshot:47 - Screenshot has been taken
+22:41:18,417  INFO main PutEmailToSpam_Steps:isNotificationDisplayed:53 - We have moved an email to Spam
+22:41:27,125  INFO main MarkWithFlagsAndRemoveThem_Steps:login:35 - We have successfully logged in
+22:41:28,171  INFO main MarkWithFlagsAndRemoveThem_Steps:makeScreenshot:62 - Screenshot has been taken
+22:41:28,513  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsFlagged:50 - We have marked emails with flags
+22:41:29,493  INFO main MarkWithFlagsAndRemoveThem_Steps:makeScreenshot:62 - Screenshot has been taken
+22:41:29,718  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsUnflagged:70 - We have removed flags from emails
+22:41:41,632  INFO main SendEmailUsingFACADE_Steps:sendEmailToSeveralAdressees:15 - The email has been sent
+22:41:45,036  INFO main NegativeLoginTestWithTestNG_Steps:loginWithWrongCreds:35 - Wrong credentials have been entered
+22:41:45,561  INFO main NegativeLoginTestWithTestNG_Steps:makeScreenshot:41 - Screenshot has been taken
+22:41:45,632  INFO main NegativeLoginTestWithTestNG_Steps:isErrorMessagePresent:47 - Error message is displayed
+22:41:56,151  INFO main PutEmailFromSpamToInbox_Steps:login:35 - We have successfully logged in
+22:41:57,210  INFO main PutEmailFromSpamToInbox_Steps:goToSpam:42 - Spam section is opened
+22:41:57,855  INFO main PutEmailFromSpamToInbox_Steps:makeScreenshot:54 - Screenshot has been taken
+22:41:57,946  INFO main PutEmailFromSpamToInbox_Steps:isNotificationPresent:60 - We have returned an email to Inbox
+22:42:04,629  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+22:42:04,708 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+22:42:04,739 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+22:42:04,744 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:42:04,779 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 0][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:42:04,783 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+22:42:04,795 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.177:443
+22:42:04,796 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.177:443 with timeout 0
+22:42:04,961 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:42:04,962 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+22:42:04,963 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+22:42:05,113 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+22:42:05,114 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+22:42:05,115 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+22:42:05,117 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+22:42:05,118 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+22:42:05,119 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:42:05,127 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:50323<->87.240.129.177:443
+22:42:05,127 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.post?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&message=Lena%27s+text&attachments=photo15919970_456239031&v=5.92 HTTP/1.1
+22:42:05,128 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+22:42:05,129 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+22:42:05,131 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-0 >> GET /method/wall.post?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&message=Lena%27s+text&attachments=photo15919970_456239031&v=5.92 HTTP/1.1
+22:42:05,132 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> Host: api.vk.com
+22:42:05,132 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> Connection: Keep-Alive
+22:42:05,133 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+22:42:05,133 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+22:42:05,134 DEBUG main wire:wire:73 - http-outgoing-0 >> "GET /method/wall.post?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&message=Lena%27s+text&attachments=photo15919970_456239031&v=5.92 HTTP/1.1[\r][\n]"
+22:42:05,134 DEBUG main wire:wire:73 - http-outgoing-0 >> "Host: api.vk.com[\r][\n]"
+22:42:05,135 DEBUG main wire:wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+22:42:05,135 DEBUG main wire:wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+22:42:05,135 DEBUG main wire:wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:42:05,136 DEBUG main wire:wire:73 - http-outgoing-0 >> "[\r][\n]"
+22:42:05,331 DEBUG main wire:wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+22:42:05,332 DEBUG main wire:wire:73 - http-outgoing-0 << "Server: Internet Information Services[\r][\n]"
+22:42:05,332 DEBUG main wire:wire:73 - http-outgoing-0 << "Date: Tue, 02 Apr 2019 19:42:05 GMT[\r][\n]"
+22:42:05,333 DEBUG main wire:wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:42:05,334 DEBUG main wire:wire:73 - http-outgoing-0 << "Content-Length: 48[\r][\n]"
+22:42:05,335 DEBUG main wire:wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+22:42:05,336 DEBUG main wire:wire:73 - http-outgoing-0 << "X-Powered-By: PHP/3.18744[\r][\n]"
+22:42:05,337 DEBUG main wire:wire:73 - http-outgoing-0 << "Cache-control: no-store[\r][\n]"
+22:42:05,337 DEBUG main wire:wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+22:42:05,338 DEBUG main wire:wire:73 - http-outgoing-0 << "[\r][\n]"
+22:42:05,338 DEBUG main wire:wire:87 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2][0xaa]V*[0xc8]/.[0x89][0xcf]LQ[0xb2]232[0xae][0xad][0x5][0x0][0x9b][0x92](2[0x1c][0x0][0x0][0x0]"
+22:42:05,344 DEBUG main headers:onResponseReceived:122 - http-outgoing-0 << HTTP/1.1 200 OK
+22:42:05,344 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Server: Internet Information Services
+22:42:05,345 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Date: Tue, 02 Apr 2019 19:42:05 GMT
+22:42:05,345 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+22:42:05,346 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Content-Length: 48
+22:42:05,346 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Connection: keep-alive
+22:42:05,346 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << X-Powered-By: PHP/3.18744
+22:42:05,347 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Cache-control: no-store
+22:42:05,347 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Content-Encoding: gzip
+22:42:05,355 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+22:42:05,365 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 0][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+22:42:05,366 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-0: set socket timeout to 0
+22:42:05,368 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 0][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:42:05,764  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+22:42:06,350  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:87 - A message has been posted on the wall
+22:42:13,981  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+22:42:13,990 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+22:42:13,991 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+22:42:13,992 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:42:13,992 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 1][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:42:13,993 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+22:42:13,994 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.177:443
+22:42:13,994 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.177:443 with timeout 0
+22:42:14,041 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:42:14,043 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+22:42:14,044 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+22:42:14,133 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+22:42:14,133 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+22:42:14,134 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+22:42:14,134 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+22:42:14,135 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+22:42:14,136 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:42:14,139 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:50392<->87.240.129.177:443
+22:42:14,139 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.edit?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=623&message=Lena%27s+EDITED+text&attachments=photo15919970_377416426&v=5.92 HTTP/1.1
+22:42:14,140 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+22:42:14,140 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+22:42:14,141 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-1 >> GET /method/wall.edit?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=623&message=Lena%27s+EDITED+text&attachments=photo15919970_377416426&v=5.92 HTTP/1.1
+22:42:14,142 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> Host: api.vk.com
+22:42:14,142 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> Connection: Keep-Alive
+22:42:14,143 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+22:42:14,143 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+22:42:14,143 DEBUG main wire:wire:73 - http-outgoing-1 >> "GET /method/wall.edit?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=623&message=Lena%27s+EDITED+text&attachments=photo15919970_377416426&v=5.92 HTTP/1.1[\r][\n]"
+22:42:14,144 DEBUG main wire:wire:73 - http-outgoing-1 >> "Host: api.vk.com[\r][\n]"
+22:42:14,144 DEBUG main wire:wire:73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+22:42:14,145 DEBUG main wire:wire:73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+22:42:14,145 DEBUG main wire:wire:73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:42:14,146 DEBUG main wire:wire:73 - http-outgoing-1 >> "[\r][\n]"
+22:42:14,243 DEBUG main wire:wire:73 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+22:42:14,243 DEBUG main wire:wire:73 - http-outgoing-1 << "Server: Internet Information Services[\r][\n]"
+22:42:14,244 DEBUG main wire:wire:73 - http-outgoing-1 << "Date: Tue, 02 Apr 2019 19:42:14 GMT[\r][\n]"
+22:42:14,245 DEBUG main wire:wire:73 - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:42:14,246 DEBUG main wire:wire:73 - http-outgoing-1 << "Content-Length: 34[\r][\n]"
+22:42:14,247 DEBUG main wire:wire:73 - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+22:42:14,247 DEBUG main wire:wire:73 - http-outgoing-1 << "X-Powered-By: PHP/3.18744[\r][\n]"
+22:42:14,248 DEBUG main wire:wire:73 - http-outgoing-1 << "Cache-control: no-store[\r][\n]"
+22:42:14,249 DEBUG main wire:wire:73 - http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
+22:42:14,249 DEBUG main wire:wire:73 - http-outgoing-1 << "[\r][\n]"
+22:42:14,251 DEBUG main wire:wire:87 - http-outgoing-1 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2]2[0xac][0x5][0x0][0xb3][0xd8][0xe9]f[0xe][0x0][0x0][0x0]"
+22:42:14,252 DEBUG main headers:onResponseReceived:122 - http-outgoing-1 << HTTP/1.1 200 OK
+22:42:14,252 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Server: Internet Information Services
+22:42:14,252 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Date: Tue, 02 Apr 2019 19:42:14 GMT
+22:42:14,253 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+22:42:14,253 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Content-Length: 34
+22:42:14,253 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Connection: keep-alive
+22:42:14,254 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << X-Powered-By: PHP/3.18744
+22:42:14,254 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Cache-control: no-store
+22:42:14,254 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Content-Encoding: gzip
+22:42:14,255 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+22:42:14,256 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 1][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+22:42:14,256 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-1: set socket timeout to 0
+22:42:14,256 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 1][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:42:14,651  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+22:42:15,747  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:113 - The message has been edited
+22:42:23,058  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+22:42:23,067 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+22:42:23,068 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+22:42:23,068 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:42:23,069 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 2][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:42:23,069 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+22:42:23,070 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.177:443
+22:42:23,070 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.177:443 with timeout 0
+22:42:23,110 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:42:23,111 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+22:42:23,112 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+22:42:23,191 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+22:42:23,191 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+22:42:23,192 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+22:42:23,193 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+22:42:23,194 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+22:42:23,194 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:42:23,195 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:50463<->87.240.129.177:443
+22:42:23,197 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.createComment?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=623&message=Lena%27s+comment&v=5.92 HTTP/1.1
+22:42:23,197 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+22:42:23,198 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+22:42:23,198 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-2 >> GET /method/wall.createComment?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=623&message=Lena%27s+comment&v=5.92 HTTP/1.1
+22:42:23,199 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> Host: api.vk.com
+22:42:23,199 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> Connection: Keep-Alive
+22:42:23,199 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+22:42:23,200 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+22:42:23,200 DEBUG main wire:wire:73 - http-outgoing-2 >> "GET /method/wall.createComment?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=623&message=Lena%27s+comment&v=5.92 HTTP/1.1[\r][\n]"
+22:42:23,201 DEBUG main wire:wire:73 - http-outgoing-2 >> "Host: api.vk.com[\r][\n]"
+22:42:23,201 DEBUG main wire:wire:73 - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+22:42:23,201 DEBUG main wire:wire:73 - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+22:42:23,202 DEBUG main wire:wire:73 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:42:23,202 DEBUG main wire:wire:73 - http-outgoing-2 >> "[\r][\n]"
+22:42:23,275 DEBUG main wire:wire:73 - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+22:42:23,276 DEBUG main wire:wire:73 - http-outgoing-2 << "Server: Internet Information Services[\r][\n]"
+22:42:23,276 DEBUG main wire:wire:73 - http-outgoing-2 << "Date: Tue, 02 Apr 2019 19:42:23 GMT[\r][\n]"
+22:42:23,277 DEBUG main wire:wire:73 - http-outgoing-2 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:42:23,277 DEBUG main wire:wire:73 - http-outgoing-2 << "Content-Length: 68[\r][\n]"
+22:42:23,278 DEBUG main wire:wire:73 - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+22:42:23,279 DEBUG main wire:wire:73 - http-outgoing-2 << "X-Powered-By: PHP/3.18744[\r][\n]"
+22:42:23,280 DEBUG main wire:wire:73 - http-outgoing-2 << "Cache-control: no-store[\r][\n]"
+22:42:23,281 DEBUG main wire:wire:73 - http-outgoing-2 << "Content-Encoding: gzip[\r][\n]"
+22:42:23,282 DEBUG main wire:wire:73 - http-outgoing-2 << "[\r][\n]"
+22:42:23,282 DEBUG main wire:wire:87 - http-outgoing-2 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2][0xaa]VJ[0xce][0xcf][0xcd]M[0xcd]+[0x89][0xcf]LQ[0xb2]232[0xd1]Q*H,[0x2][0xf2][0x8b][0xe3][0x8b]K[0x12][0x93][0xb3][0x95][0xac][0xa2]ckk[0x1][0xa5][0x86]w[0xd1]2[0x0][0x0][0x0]"
+22:42:23,283 DEBUG main headers:onResponseReceived:122 - http-outgoing-2 << HTTP/1.1 200 OK
+22:42:23,285 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Server: Internet Information Services
+22:42:23,285 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Date: Tue, 02 Apr 2019 19:42:23 GMT
+22:42:23,285 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Content-Type: application/json; charset=utf-8
+22:42:23,286 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Content-Length: 68
+22:42:23,286 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Connection: keep-alive
+22:42:23,287 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << X-Powered-By: PHP/3.18744
+22:42:23,287 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Cache-control: no-store
+22:42:23,287 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Content-Encoding: gzip
+22:42:23,288 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+22:42:23,289 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 2][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+22:42:23,289 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-2: set socket timeout to 0
+22:42:23,290 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 2][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:42:23,821  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+22:42:23,881  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:133 - A comment has been added
+22:42:30,562  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+22:42:30,570 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+22:42:30,571 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+22:42:30,571 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:42:30,572 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 3][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:42:30,573 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+22:42:30,575 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.177:443
+22:42:30,575 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.177:443 with timeout 0
+22:42:30,610 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:42:30,610 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+22:42:30,610 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+22:42:30,672 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+22:42:30,672 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+22:42:30,673 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+22:42:30,673 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+22:42:30,674 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+22:42:30,675 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:42:30,675 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:50529<->87.240.129.177:443
+22:42:30,676 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.delete?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=623&v=5.92 HTTP/1.1
+22:42:30,677 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+22:42:30,678 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+22:42:30,679 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-3 >> GET /method/wall.delete?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=623&v=5.92 HTTP/1.1
+22:42:30,679 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> Host: api.vk.com
+22:42:30,680 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> Connection: Keep-Alive
+22:42:30,680 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+22:42:30,681 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+22:42:30,681 DEBUG main wire:wire:73 - http-outgoing-3 >> "GET /method/wall.delete?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=623&v=5.92 HTTP/1.1[\r][\n]"
+22:42:30,681 DEBUG main wire:wire:73 - http-outgoing-3 >> "Host: api.vk.com[\r][\n]"
+22:42:30,682 DEBUG main wire:wire:73 - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+22:42:30,682 DEBUG main wire:wire:73 - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+22:42:30,683 DEBUG main wire:wire:73 - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:42:30,683 DEBUG main wire:wire:73 - http-outgoing-3 >> "[\r][\n]"
+22:42:30,730 DEBUG main wire:wire:73 - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+22:42:30,731 DEBUG main wire:wire:73 - http-outgoing-3 << "Server: Internet Information Services[\r][\n]"
+22:42:30,731 DEBUG main wire:wire:73 - http-outgoing-3 << "Date: Tue, 02 Apr 2019 19:42:30 GMT[\r][\n]"
+22:42:30,732 DEBUG main wire:wire:73 - http-outgoing-3 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:42:30,732 DEBUG main wire:wire:73 - http-outgoing-3 << "Content-Length: 34[\r][\n]"
+22:42:30,733 DEBUG main wire:wire:73 - http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+22:42:30,733 DEBUG main wire:wire:73 - http-outgoing-3 << "X-Powered-By: PHP/3.18744[\r][\n]"
+22:42:30,734 DEBUG main wire:wire:73 - http-outgoing-3 << "Cache-control: no-store[\r][\n]"
+22:42:30,734 DEBUG main wire:wire:73 - http-outgoing-3 << "Content-Encoding: gzip[\r][\n]"
+22:42:30,735 DEBUG main wire:wire:73 - http-outgoing-3 << "[\r][\n]"
+22:42:30,735 DEBUG main wire:wire:87 - http-outgoing-3 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2]2[0xac][0x5][0x0][0xb3][0xd8][0xe9]f[0xe][0x0][0x0][0x0]"
+22:42:30,736 DEBUG main headers:onResponseReceived:122 - http-outgoing-3 << HTTP/1.1 200 OK
+22:42:30,736 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Server: Internet Information Services
+22:42:30,737 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Date: Tue, 02 Apr 2019 19:42:30 GMT
+22:42:30,737 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Content-Type: application/json; charset=utf-8
+22:42:30,737 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Content-Length: 34
+22:42:30,738 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Connection: keep-alive
+22:42:30,738 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << X-Powered-By: PHP/3.18744
+22:42:30,738 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Cache-control: no-store
+22:42:30,739 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Content-Encoding: gzip
+22:42:30,740 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+22:42:30,741 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 3][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+22:42:30,741 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-3: set socket timeout to 0
+22:42:30,742 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 3][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:42:31,182  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+22:44:56,902  INFO main Logout_Steps:login:33 - We have successfully logged in
+22:44:58,525  INFO main Logout_Steps:makeScreenshot:44 - Screenshot has been taken
+22:44:58,598  INFO main Logout_Steps:isLoggedOut:50 - We have successfully logged out
+22:45:06,418  INFO main PutEmailToSpam_Steps:login:35 - We have successfully logged in
+22:45:07,322  INFO main PutEmailToSpam_Steps:makeScreenshot:47 - Screenshot has been taken
+22:45:07,400  INFO main PutEmailToSpam_Steps:isNotificationDisplayed:53 - We have moved an email to Spam
+22:45:14,844  INFO main MarkWithFlagsAndRemoveThem_Steps:login:35 - We have successfully logged in
+22:45:15,960  INFO main MarkWithFlagsAndRemoveThem_Steps:makeScreenshot:62 - Screenshot has been taken
+22:45:16,284  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsFlagged:50 - We have marked emails with flags
+22:45:17,282  INFO main MarkWithFlagsAndRemoveThem_Steps:makeScreenshot:62 - Screenshot has been taken
+22:45:17,517  INFO main MarkWithFlagsAndRemoveThem_Steps:checkIfEmailsUnflagged:70 - We have removed flags from emails
+22:45:29,291  INFO main SendEmailUsingFACADE_Steps:sendEmailToSeveralAdressees:15 - The email has been sent
+22:45:32,578  INFO main NegativeLoginTestWithTestNG_Steps:loginWithWrongCreds:35 - Wrong credentials have been entered
+22:45:33,013  INFO main NegativeLoginTestWithTestNG_Steps:makeScreenshot:41 - Screenshot has been taken
+22:45:33,070  INFO main NegativeLoginTestWithTestNG_Steps:isErrorMessagePresent:47 - Error message is displayed
+22:45:41,313  INFO main PutEmailFromSpamToInbox_Steps:login:35 - We have successfully logged in
+22:45:42,360  INFO main PutEmailFromSpamToInbox_Steps:goToSpam:42 - Spam section is opened
+22:45:42,983  INFO main PutEmailFromSpamToInbox_Steps:makeScreenshot:54 - Screenshot has been taken
+22:45:43,069  INFO main PutEmailFromSpamToInbox_Steps:isNotificationPresent:60 - We have returned an email to Inbox
+22:45:50,338  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+22:45:50,398 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+22:45:50,428 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+22:45:50,432 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:45:50,473 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 0][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:45:50,478 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+22:45:50,487 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.177:443
+22:45:50,488 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.177:443 with timeout 0
+22:45:50,597 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:45:50,597 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+22:45:50,599 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+22:45:50,886 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+22:45:50,887 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+22:45:50,889 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+22:45:50,893 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+22:45:50,893 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+22:45:50,895 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:45:50,902 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:51241<->87.240.129.177:443
+22:45:50,902 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.post?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&message=Lena%27s+text&attachments=photo15919970_456239031&v=5.92 HTTP/1.1
+22:45:50,903 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+22:45:50,906 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+22:45:50,909 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-0 >> GET /method/wall.post?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&message=Lena%27s+text&attachments=photo15919970_456239031&v=5.92 HTTP/1.1
+22:45:50,910 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> Host: api.vk.com
+22:45:50,911 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> Connection: Keep-Alive
+22:45:50,912 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+22:45:50,913 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+22:45:50,914 DEBUG main wire:wire:73 - http-outgoing-0 >> "GET /method/wall.post?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&message=Lena%27s+text&attachments=photo15919970_456239031&v=5.92 HTTP/1.1[\r][\n]"
+22:45:50,915 DEBUG main wire:wire:73 - http-outgoing-0 >> "Host: api.vk.com[\r][\n]"
+22:45:50,915 DEBUG main wire:wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+22:45:50,915 DEBUG main wire:wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+22:45:50,916 DEBUG main wire:wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:45:50,916 DEBUG main wire:wire:73 - http-outgoing-0 >> "[\r][\n]"
+22:45:51,056 DEBUG main wire:wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+22:45:51,060 DEBUG main wire:wire:73 - http-outgoing-0 << "Server: Internet Information Services[\r][\n]"
+22:45:51,061 DEBUG main wire:wire:73 - http-outgoing-0 << "Date: Tue, 02 Apr 2019 19:45:51 GMT[\r][\n]"
+22:45:51,062 DEBUG main wire:wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:45:51,063 DEBUG main wire:wire:73 - http-outgoing-0 << "Content-Length: 48[\r][\n]"
+22:45:51,064 DEBUG main wire:wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+22:45:51,065 DEBUG main wire:wire:73 - http-outgoing-0 << "X-Powered-By: PHP/3.18744[\r][\n]"
+22:45:51,066 DEBUG main wire:wire:73 - http-outgoing-0 << "Cache-control: no-store[\r][\n]"
+22:45:51,067 DEBUG main wire:wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+22:45:51,068 DEBUG main wire:wire:73 - http-outgoing-0 << "[\r][\n]"
+22:45:51,069 DEBUG main wire:wire:87 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2][0xaa]V*[0xc8]/.[0x89][0xcf]LQ[0xb2]232[0xad][0xad][0x5][0x0])[0xee][0xa5]6[0x1c][0x0][0x0][0x0]"
+22:45:51,078 DEBUG main headers:onResponseReceived:122 - http-outgoing-0 << HTTP/1.1 200 OK
+22:45:51,078 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Server: Internet Information Services
+22:45:51,079 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Date: Tue, 02 Apr 2019 19:45:51 GMT
+22:45:51,079 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+22:45:51,079 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Content-Length: 48
+22:45:51,080 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Connection: keep-alive
+22:45:51,080 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << X-Powered-By: PHP/3.18744
+22:45:51,080 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Cache-control: no-store
+22:45:51,080 DEBUG main headers:onResponseReceived:125 - http-outgoing-0 << Content-Encoding: gzip
+22:45:51,092 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+22:45:51,113 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 0][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+22:45:51,114 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-0: set socket timeout to 0
+22:45:51,116 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 0][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:45:51,576  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+22:45:51,635  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostPresent:87 - A message has been posted on the wall
+22:45:58,395  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+22:45:58,402 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+22:45:58,403 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+22:45:58,404 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:45:58,404 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 1][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:45:58,405 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+22:45:58,405 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.177:443
+22:45:58,406 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.177:443 with timeout 0
+22:45:58,452 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:45:58,452 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+22:45:58,453 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+22:45:58,530 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+22:45:58,531 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+22:45:58,532 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+22:45:58,533 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+22:45:58,534 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+22:45:58,534 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:45:58,535 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:51307<->87.240.129.177:443
+22:45:58,536 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.edit?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=625&message=Lena%27s+EDITED+text&attachments=photo15919970_377416426&v=5.92 HTTP/1.1
+22:45:58,537 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+22:45:58,537 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+22:45:58,538 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-1 >> GET /method/wall.edit?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=625&message=Lena%27s+EDITED+text&attachments=photo15919970_377416426&v=5.92 HTTP/1.1
+22:45:58,538 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> Host: api.vk.com
+22:45:58,539 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> Connection: Keep-Alive
+22:45:58,547 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+22:45:58,547 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+22:45:58,552 DEBUG main wire:wire:73 - http-outgoing-1 >> "GET /method/wall.edit?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=625&message=Lena%27s+EDITED+text&attachments=photo15919970_377416426&v=5.92 HTTP/1.1[\r][\n]"
+22:45:58,552 DEBUG main wire:wire:73 - http-outgoing-1 >> "Host: api.vk.com[\r][\n]"
+22:45:58,553 DEBUG main wire:wire:73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+22:45:58,553 DEBUG main wire:wire:73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+22:45:58,554 DEBUG main wire:wire:73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:45:58,554 DEBUG main wire:wire:73 - http-outgoing-1 >> "[\r][\n]"
+22:45:58,657 DEBUG main wire:wire:73 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+22:45:58,658 DEBUG main wire:wire:73 - http-outgoing-1 << "Server: Internet Information Services[\r][\n]"
+22:45:58,659 DEBUG main wire:wire:73 - http-outgoing-1 << "Date: Tue, 02 Apr 2019 19:45:58 GMT[\r][\n]"
+22:45:58,661 DEBUG main wire:wire:73 - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:45:58,662 DEBUG main wire:wire:73 - http-outgoing-1 << "Content-Length: 34[\r][\n]"
+22:45:58,663 DEBUG main wire:wire:73 - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+22:45:58,664 DEBUG main wire:wire:73 - http-outgoing-1 << "X-Powered-By: PHP/3.18744[\r][\n]"
+22:45:58,664 DEBUG main wire:wire:73 - http-outgoing-1 << "Cache-control: no-store[\r][\n]"
+22:45:58,665 DEBUG main wire:wire:73 - http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
+22:45:58,665 DEBUG main wire:wire:73 - http-outgoing-1 << "[\r][\n]"
+22:45:58,666 DEBUG main wire:wire:87 - http-outgoing-1 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2]2[0xac][0x5][0x0][0xb3][0xd8][0xe9]f[0xe][0x0][0x0][0x0]"
+22:45:58,666 DEBUG main headers:onResponseReceived:122 - http-outgoing-1 << HTTP/1.1 200 OK
+22:45:58,667 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Server: Internet Information Services
+22:45:58,668 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Date: Tue, 02 Apr 2019 19:45:58 GMT
+22:45:58,668 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+22:45:58,668 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Content-Length: 34
+22:45:58,669 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Connection: keep-alive
+22:45:58,669 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << X-Powered-By: PHP/3.18744
+22:45:58,670 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Cache-control: no-store
+22:45:58,670 DEBUG main headers:onResponseReceived:125 - http-outgoing-1 << Content-Encoding: gzip
+22:45:58,671 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+22:45:58,671 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 1][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+22:45:58,672 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-1: set socket timeout to 0
+22:45:58,672 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 1][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:45:59,158 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:408 - Connection manager is shutting down
+22:45:59,160 DEBUG Finalizer DefaultManagedHttpClientConnection:close:79 - http-outgoing-0: Close connection
+22:45:59,161 DEBUG Finalizer PoolingHttpClientConnectionManager:shutdown:414 - Connection manager shut down
+22:45:59,190  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+22:45:59,777  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostEdited:113 - The message has been edited
+22:46:07,607  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+22:46:07,616 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+22:46:07,617 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+22:46:07,617 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:46:07,617 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 2][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:46:07,618 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+22:46:07,618 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.177:443
+22:46:07,619 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.177:443 with timeout 0
+22:46:07,654 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:46:07,654 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+22:46:07,655 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+22:46:07,744 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+22:46:07,744 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+22:46:07,745 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+22:46:07,746 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+22:46:07,746 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+22:46:07,747 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:46:07,748 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:51376<->87.240.129.177:443
+22:46:07,748 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.createComment?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=625&message=Lena%27s+comment&v=5.92 HTTP/1.1
+22:46:07,748 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+22:46:07,749 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+22:46:07,749 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-2 >> GET /method/wall.createComment?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=625&message=Lena%27s+comment&v=5.92 HTTP/1.1
+22:46:07,750 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> Host: api.vk.com
+22:46:07,750 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> Connection: Keep-Alive
+22:46:07,751 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+22:46:07,751 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+22:46:07,751 DEBUG main wire:wire:73 - http-outgoing-2 >> "GET /method/wall.createComment?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=625&message=Lena%27s+comment&v=5.92 HTTP/1.1[\r][\n]"
+22:46:07,752 DEBUG main wire:wire:73 - http-outgoing-2 >> "Host: api.vk.com[\r][\n]"
+22:46:07,752 DEBUG main wire:wire:73 - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+22:46:07,752 DEBUG main wire:wire:73 - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+22:46:07,753 DEBUG main wire:wire:73 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:46:07,753 DEBUG main wire:wire:73 - http-outgoing-2 >> "[\r][\n]"
+22:46:07,864 DEBUG main wire:wire:73 - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+22:46:07,864 DEBUG main wire:wire:73 - http-outgoing-2 << "Server: Internet Information Services[\r][\n]"
+22:46:07,865 DEBUG main wire:wire:73 - http-outgoing-2 << "Date: Tue, 02 Apr 2019 19:46:07 GMT[\r][\n]"
+22:46:07,865 DEBUG main wire:wire:73 - http-outgoing-2 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:46:07,865 DEBUG main wire:wire:73 - http-outgoing-2 << "Content-Length: 68[\r][\n]"
+22:46:07,866 DEBUG main wire:wire:73 - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+22:46:07,866 DEBUG main wire:wire:73 - http-outgoing-2 << "X-Powered-By: PHP/3.18744[\r][\n]"
+22:46:07,866 DEBUG main wire:wire:73 - http-outgoing-2 << "Cache-control: no-store[\r][\n]"
+22:46:07,867 DEBUG main wire:wire:73 - http-outgoing-2 << "Content-Encoding: gzip[\r][\n]"
+22:46:07,868 DEBUG main wire:wire:73 - http-outgoing-2 << "[\r][\n]"
+22:46:07,869 DEBUG main wire:wire:87 - http-outgoing-2 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2][0xaa]VJ[0xce][0xcf][0xcd]M[0xcd]+[0x89][0xcf]LQ[0xb2]232[0xd3]Q*H,[0x2][0xf2][0x8b][0xe3][0x8b]K[0x12][0x93][0xb3][0x95][0xac][0xa2]ckk[0x1]%O'[0xff]2[0x0][0x0][0x0]"
+22:46:07,870 DEBUG main headers:onResponseReceived:122 - http-outgoing-2 << HTTP/1.1 200 OK
+22:46:07,870 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Server: Internet Information Services
+22:46:07,870 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Date: Tue, 02 Apr 2019 19:46:07 GMT
+22:46:07,871 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Content-Type: application/json; charset=utf-8
+22:46:07,871 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Content-Length: 68
+22:46:07,872 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Connection: keep-alive
+22:46:07,873 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << X-Powered-By: PHP/3.18744
+22:46:07,873 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Cache-control: no-store
+22:46:07,874 DEBUG main headers:onResponseReceived:125 - http-outgoing-2 << Content-Encoding: gzip
+22:46:07,874 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+22:46:07,875 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 2][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+22:46:07,876 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-2: set socket timeout to 0
+22:46:07,877 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 2][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:46:08,277  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+22:46:08,331  INFO main VKWallPostEditCommentDelete_Steps:checkIsCommentAdded:133 - A comment has been added
+22:46:15,430  INFO main VKWallPostEditCommentDelete_Steps:goToVKPage:62 - Denis' VK page is opened
+22:46:15,433 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: default
+22:46:15,433 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+22:46:15,434 DEBUG main PoolingHttpClientConnectionManager:requestConnection:265 - Connection request: [route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:46:15,435 DEBUG main PoolingHttpClientConnectionManager:leaseConnection:309 - Connection leased: [id: 3][route: {s}->https://api.vk.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:46:15,435 DEBUG main MainClientExec:execute:235 - Opening connection {s}->https://api.vk.com:443
+22:46:15,435 DEBUG main DefaultHttpClientConnectionOperator:connect:139 - Connecting to api.vk.com/87.240.129.177:443
+22:46:15,436 DEBUG main SSLConnectionSocketFactory:connectSocket:337 - Connecting socket to api.vk.com/87.240.129.177:443 with timeout 0
+22:46:15,477 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+22:46:15,477 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+22:46:15,477 DEBUG main SSLConnectionSocketFactory:createLayeredSocket:395 - Starting handshake
+22:46:15,552 DEBUG main SSLConnectionSocketFactory:verifyHostname:425 - Secure session established
+22:46:15,552 DEBUG main SSLConnectionSocketFactory:verifyHostname:426 -  negotiated protocol: TLSv1.2
+22:46:15,553 DEBUG main SSLConnectionSocketFactory:verifyHostname:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+22:46:15,553 DEBUG main SSLConnectionSocketFactory:verifyHostname:435 -  peer principal: CN=*.vk.com, O=V Kontakte LLC, L=Saint-Petersburg, ST=Saint-Petersburg, C=RU
+22:46:15,554 DEBUG main SSLConnectionSocketFactory:verifyHostname:444 -  peer alternative names: [*.vk.com, vkontakte.com, vkontakte.ru, vk.cc, *.vkontakte.com, *.vkontakte.ru, *.vk.cc, vk.com]
+22:46:15,554 DEBUG main SSLConnectionSocketFactory:verifyHostname:448 -  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:46:15,555 DEBUG main DefaultHttpClientConnectionOperator:connect:146 - Connection established 192.168.0.102:51453<->87.240.129.177:443
+22:46:15,555 DEBUG main MainClientExec:execute:256 - Executing request GET /method/wall.delete?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=625&v=5.92 HTTP/1.1
+22:46:15,555 DEBUG main MainClientExec:execute:261 - Target auth state: UNCHALLENGED
+22:46:15,556 DEBUG main MainClientExec:execute:267 - Proxy auth state: UNCHALLENGED
+22:46:15,556 DEBUG main headers:onRequestSubmitted:133 - http-outgoing-3 >> GET /method/wall.delete?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=625&v=5.92 HTTP/1.1
+22:46:15,557 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> Host: api.vk.com
+22:46:15,558 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> Connection: Keep-Alive
+22:46:15,558 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+22:46:15,558 DEBUG main headers:onRequestSubmitted:136 - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+22:46:15,559 DEBUG main wire:wire:73 - http-outgoing-3 >> "GET /method/wall.delete?access_token=2007d5e92f8e4e5ca15823cb1fae848a68ac534dd03c205308c33916bdab61c5818bf732f162d7d36297f&owner_id=536083852&post_id=625&v=5.92 HTTP/1.1[\r][\n]"
+22:46:15,559 DEBUG main wire:wire:73 - http-outgoing-3 >> "Host: api.vk.com[\r][\n]"
+22:46:15,560 DEBUG main wire:wire:73 - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+22:46:15,561 DEBUG main wire:wire:73 - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+22:46:15,561 DEBUG main wire:wire:73 - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:46:15,561 DEBUG main wire:wire:73 - http-outgoing-3 >> "[\r][\n]"
+22:46:15,617 DEBUG main wire:wire:73 - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+22:46:15,618 DEBUG main wire:wire:73 - http-outgoing-3 << "Server: Internet Information Services[\r][\n]"
+22:46:15,619 DEBUG main wire:wire:73 - http-outgoing-3 << "Date: Tue, 02 Apr 2019 19:46:15 GMT[\r][\n]"
+22:46:15,621 DEBUG main wire:wire:73 - http-outgoing-3 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:46:15,622 DEBUG main wire:wire:73 - http-outgoing-3 << "Content-Length: 34[\r][\n]"
+22:46:15,623 DEBUG main wire:wire:73 - http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+22:46:15,624 DEBUG main wire:wire:73 - http-outgoing-3 << "X-Powered-By: PHP/3.18744[\r][\n]"
+22:46:15,625 DEBUG main wire:wire:73 - http-outgoing-3 << "Cache-control: no-store[\r][\n]"
+22:46:15,625 DEBUG main wire:wire:73 - http-outgoing-3 << "Content-Encoding: gzip[\r][\n]"
+22:46:15,626 DEBUG main wire:wire:73 - http-outgoing-3 << "[\r][\n]"
+22:46:15,626 DEBUG main wire:wire:87 - http-outgoing-3 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V*J-.[0xc8][0xcf]+NU[0xb2]2[0xac][0x5][0x0][0xb3][0xd8][0xe9]f[0xe][0x0][0x0][0x0]"
+22:46:15,627 DEBUG main headers:onResponseReceived:122 - http-outgoing-3 << HTTP/1.1 200 OK
+22:46:15,628 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Server: Internet Information Services
+22:46:15,628 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Date: Tue, 02 Apr 2019 19:46:15 GMT
+22:46:15,629 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Content-Type: application/json; charset=utf-8
+22:46:15,629 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Content-Length: 34
+22:46:15,630 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Connection: keep-alive
+22:46:15,631 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << X-Powered-By: PHP/3.18744
+22:46:15,631 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Cache-control: no-store
+22:46:15,632 DEBUG main headers:onResponseReceived:125 - http-outgoing-3 << Content-Encoding: gzip
+22:46:15,632 DEBUG main MainClientExec:execute:285 - Connection can be kept alive indefinitely
+22:46:15,633 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:341 - Connection [id: 3][route: {s}->https://api.vk.com:443] can be kept alive indefinitely
+22:46:15,633 DEBUG main DefaultManagedHttpClientConnection:setSocketTimeout:88 - http-outgoing-3: set socket timeout to 0
+22:46:15,634 DEBUG main PoolingHttpClientConnectionManager:releaseConnection:348 - Connection released: [id: 3][route: {s}->https://api.vk.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:46:16,042  INFO main VKWallPostEditCommentDelete_Steps:makeScreenshot:81 - Screenshot has been taken
+22:46:16,111  INFO main VKWallPostEditCommentDelete_Steps:checkIsPostDeleted:152 - The message has been deleted

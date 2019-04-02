@@ -1,0 +1,748 @@
+{
+  "time" : {
+    "start" : 1554234296910,
+    "stop" : 1554234376240,
+    "duration" : 79330
+  },
+  "testSuites" : [ {
+    "uid" : "dffea0ffe205d696",
+    "name" : "Scenario: Mark and unmark some emails with flags",
+    "title" : "Scenario: mark and unmark some emails with flags",
+    "time" : {
+      "start" : 1554234314846,
+      "stop" : 1554234317662,
+      "duration" : 2816
+    },
+    "statistic" : {
+      "total" : 8,
+      "passed" : 8,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "26a67f10958a8141",
+      "name" : "When I log into mail.ru",
+      "title" : "Ru",
+      "time" : {
+        "start" : 1554234314846,
+        "stop" : 1554234314846,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "4e254fba88f57c9e",
+      "name" : "When I log into mail.ru",
+      "title" : "Ru",
+      "time" : {
+        "start" : 1554234314846,
+        "stop" : 1554234314846,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "925e4f7b9cc8a79a",
+      "name" : "When I mark three emails with flags",
+      "title" : "When I mark three emails with flags",
+      "time" : {
+        "start" : 1554234315600,
+        "stop" : 1554234315600,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "8dc5881d29cbc72a",
+      "name" : "When I make one screenshot",
+      "title" : "When I make one screenshot",
+      "time" : {
+        "start" : 1554234315961,
+        "stop" : 1554234315961,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "c42edecf591352ae",
+      "name" : "Then the emails are flagged",
+      "title" : "Then the emails are flagged",
+      "time" : {
+        "start" : 1554234316285,
+        "stop" : 1554234316285,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d5388e3ddc17ff41",
+      "name" : "When I remove flags",
+      "title" : "When I remove flags",
+      "time" : {
+        "start" : 1554234316913,
+        "stop" : 1554234316914,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d9414060906518ed",
+      "name" : "When I make one screenshot",
+      "title" : "When I make one screenshot",
+      "time" : {
+        "start" : 1554234317283,
+        "stop" : 1554234317283,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "4bcd9e1a717e1e41",
+      "name" : "Then the emails are not flagged",
+      "title" : "Then the emails are not flagged",
+      "time" : {
+        "start" : 1554234317662,
+        "stop" : 1554234317662,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "ab3daa849325ed2c",
+    "name" : "Scenario: Try to log in with incorrect credentials",
+    "title" : "Scenario: try to log in with incorrect credentials",
+    "time" : {
+      "start" : 1554234332579,
+      "stop" : 1554234333179,
+      "duration" : 600
+    },
+    "statistic" : {
+      "total" : 4,
+      "passed" : 4,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "3d0fa0dc48b69465",
+      "name" : "When I log in with incorrect username and password taken from xml",
+      "title" : "When I log in with incorrect username and password taken from xml",
+      "time" : {
+        "start" : 1554234332579,
+        "stop" : 1554234332579,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "3e10fd377749e49e",
+      "name" : "When I log in with incorrect username and password taken from xml",
+      "title" : "When I log in with incorrect username and password taken from xml",
+      "time" : {
+        "start" : 1554234332579,
+        "stop" : 1554234332579,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "566bc3dc5e6c4719",
+      "name" : "When I make my screenshot",
+      "title" : "When I make my screenshot",
+      "time" : {
+        "start" : 1554234333014,
+        "stop" : 1554234333014,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e82e502244255d66",
+      "name" : "Then I see the error message",
+      "title" : "Then I see the error message",
+      "time" : {
+        "start" : 1554234333179,
+        "stop" : 1554234333179,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "bc15c8970006e6e6",
+    "name" : "Scenario: Test deleting the previously added message",
+    "title" : "Scenario: test deleting the previously added message",
+    "time" : {
+      "start" : 1554234375432,
+      "stop" : 1554234376240,
+      "duration" : 808
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 5,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "2b47bf6f533e12b3",
+      "name" : "Given I'm on Denis' vk test page",
+      "title" : "Given I'm on denis' vk test page",
+      "time" : {
+        "start" : 1554234375432,
+        "stop" : 1554234375432,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e65aab74f486edfb",
+      "name" : "Given I'm on Denis' vk test page",
+      "title" : "Given I'm on denis' vk test page",
+      "time" : {
+        "start" : 1554234375432,
+        "stop" : 1554234375432,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "45e6eae30014d128",
+      "name" : "When I delete my message from the wall",
+      "title" : "When I delete my message from the wall",
+      "time" : {
+        "start" : 1554234375635,
+        "stop" : 1554234375635,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b1b247842d364917",
+      "name" : "When I make screenshot",
+      "title" : "When I make screenshot",
+      "time" : {
+        "start" : 1554234376043,
+        "stop" : 1554234376043,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "afa490a3a33b0454",
+      "name" : "Then Message is deleted",
+      "title" : "Then message is deleted",
+      "time" : {
+        "start" : 1554234376240,
+        "stop" : 1554234376240,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "788c52918d4ed605",
+    "name" : "Scenario: Send email to several addressees",
+    "title" : "Scenario: send email to several addressees",
+    "time" : {
+      "start" : 1554234329295,
+      "stop" : 1554234329296,
+      "duration" : 1
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "fbef065f406bc993",
+      "name" : "When I enter addressees, subject, text and click Send",
+      "title" : "When I enter addressees, subject, text and click send",
+      "time" : {
+        "start" : 1554234329295,
+        "stop" : 1554234329296,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "704a4ca93b27e0d6",
+      "name" : "When I enter addressees, subject, text and click Send",
+      "title" : "When I enter addressees, subject, text and click send",
+      "time" : {
+        "start" : 1554234329295,
+        "stop" : 1554234329296,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "ddc68e150c1bb3d7",
+    "name" : "Scenario: Put email from spam to Inbox",
+    "title" : "Scenario: put email from spam to inbox",
+    "time" : {
+      "start" : 1554234341316,
+      "stop" : 1554234343232,
+      "duration" : 1916
+    },
+    "statistic" : {
+      "total" : 6,
+      "passed" : 6,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "aeca4d77504c11ce",
+      "name" : "When I log in my email",
+      "title" : "When I log in my email",
+      "time" : {
+        "start" : 1554234341316,
+        "stop" : 1554234341317,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5b6f3627ee978f49",
+      "name" : "When I log in my email",
+      "title" : "When I log in my email",
+      "time" : {
+        "start" : 1554234341316,
+        "stop" : 1554234341317,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "fc6ab47e972b841b",
+      "name" : "When I go to Spam",
+      "title" : "When I go to spam",
+      "time" : {
+        "start" : 1554234342361,
+        "stop" : 1554234342361,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "51d65430900d0aa3",
+      "name" : "When I return an email back to Inbox",
+      "title" : "When I return an email back to inbox",
+      "time" : {
+        "start" : 1554234342541,
+        "stop" : 1554234342541,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "780164fbc84a08df",
+      "name" : "When I make another screenshot",
+      "title" : "When I make another screenshot",
+      "time" : {
+        "start" : 1554234342983,
+        "stop" : 1554234342983,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "abea0ba03c62a943",
+      "name" : "Then Notification about successful moving to Inbox is displayed",
+      "title" : "Then notification about successful moving to inbox is displayed",
+      "time" : {
+        "start" : 1554234343232,
+        "stop" : 1554234343232,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "cd20054db648ad52",
+    "name" : "Scenario: Log out",
+    "title" : "Scenario: log out",
+    "time" : {
+      "start" : 1554234296910,
+      "stop" : 1554234298765,
+      "duration" : 1855
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 5,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "bc78a14a2b80a422",
+      "name" : "When I log in my account",
+      "title" : "When I log in my account",
+      "time" : {
+        "start" : 1554234296910,
+        "stop" : 1554234296914,
+        "duration" : 4
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6e9ab8c7e7fb16fb",
+      "name" : "When I log in my account",
+      "title" : "When I log in my account",
+      "time" : {
+        "start" : 1554234296910,
+        "stop" : 1554234296914,
+        "duration" : 4
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7423b0c101525573",
+      "name" : "When I click Logout link",
+      "title" : "When I click logout link",
+      "time" : {
+        "start" : 1554234298027,
+        "stop" : 1554234298027,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "79d23452ee09e6e2",
+      "name" : "When I make a screenshot",
+      "title" : "When I make a screenshot",
+      "time" : {
+        "start" : 1554234298526,
+        "stop" : 1554234298526,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f871be20e3f05637",
+      "name" : "Then I am logged out",
+      "title" : "Then I am logged out",
+      "time" : {
+        "start" : 1554234298765,
+        "stop" : 1554234298765,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "6229af2854f4ec54",
+    "name" : "Scenario: Put email to spam",
+    "title" : "Scenario: put email to spam",
+    "time" : {
+      "start" : 1554234306421,
+      "stop" : 1554234307538,
+      "duration" : 1117
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 5,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "74e4aeee60e2fc35",
+      "name" : "When I log in the account",
+      "title" : "When I log in the account",
+      "time" : {
+        "start" : 1554234306421,
+        "stop" : 1554234306421,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "3ad8e272579c9fb7",
+      "name" : "When I log in the account",
+      "title" : "When I log in the account",
+      "time" : {
+        "start" : 1554234306421,
+        "stop" : 1554234306421,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "73e4208d1e5c786e",
+      "name" : "When I check the first email checkbox and click the Spam button",
+      "title" : "When I check the first email checkbox and click the spam button",
+      "time" : {
+        "start" : 1554234306914,
+        "stop" : 1554234306914,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9b95753cb323803b",
+      "name" : "When I make the screenshot",
+      "title" : "When I make the screenshot",
+      "time" : {
+        "start" : 1554234307324,
+        "stop" : 1554234307324,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "71e02c1c6178c8c4",
+      "name" : "Then Notification about successful moving to Spam is displayed",
+      "title" : "Then notification about successful moving to spam is displayed",
+      "time" : {
+        "start" : 1554234307538,
+        "stop" : 1554234307538,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "7da89225fef705a5",
+    "name" : "Scenario: Test adding a comment to the post",
+    "title" : "Scenario: test adding a comment to the post",
+    "time" : {
+      "start" : 1554234367613,
+      "stop" : 1554234368446,
+      "duration" : 833
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 5,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "c512dbcd09d51112",
+      "name" : "Given I'm on Denis' vk test page",
+      "title" : "Given I'm on denis' vk test page",
+      "time" : {
+        "start" : 1554234367613,
+        "stop" : 1554234367613,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f8e9aae87ef627f2",
+      "name" : "Given I'm on Denis' vk test page",
+      "title" : "Given I'm on denis' vk test page",
+      "time" : {
+        "start" : 1554234367613,
+        "stop" : 1554234367613,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "93d46a7f62c58045",
+      "name" : "When I leave a comment under the previously added post",
+      "title" : "When I leave a comment under the previously added post",
+      "time" : {
+        "start" : 1554234367878,
+        "stop" : 1554234367878,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a4d94ddfed96294c",
+      "name" : "When I make screenshot",
+      "title" : "When I make screenshot",
+      "time" : {
+        "start" : 1554234368278,
+        "stop" : 1554234368278,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9f5b3777c9fb146b",
+      "name" : "Then Comment is added",
+      "title" : "Then comment is added",
+      "time" : {
+        "start" : 1554234368446,
+        "stop" : 1554234368446,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "8021dc8ec74e0139",
+    "name" : "Scenario: Test editing of the previously added message",
+    "title" : "Scenario: test editing of the previously added message",
+    "time" : {
+      "start" : 1554234358400,
+      "stop" : 1554234359902,
+      "duration" : 1502
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 5,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "99f1096f83024995",
+      "name" : "Given I'm on Denis' vk test page",
+      "title" : "Given I'm on denis' vk test page",
+      "time" : {
+        "start" : 1554234358400,
+        "stop" : 1554234358400,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "4d31e62c86a4def9",
+      "name" : "Given I'm on Denis' vk test page",
+      "title" : "Given I'm on denis' vk test page",
+      "time" : {
+        "start" : 1554234358400,
+        "stop" : 1554234358400,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6236f86d2d0404dd",
+      "name" : "When I edit the message I've left on the wall",
+      "title" : "When I edit the message I've left on the wall",
+      "time" : {
+        "start" : 1554234358678,
+        "stop" : 1554234358678,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "dcf507820a459d82",
+      "name" : "When I make screenshot",
+      "title" : "When I make screenshot",
+      "time" : {
+        "start" : 1554234359191,
+        "stop" : 1554234359191,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7977e6c9f95f1a02",
+      "name" : "Then Message is edited",
+      "title" : "Then message is edited",
+      "time" : {
+        "start" : 1554234359902,
+        "stop" : 1554234359902,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "3dced4db4429a40a",
+    "name" : "Scenario: Post message on the wall",
+    "title" : "Scenario: post message on the wall",
+    "time" : {
+      "start" : 1554234350341,
+      "stop" : 1554234351774,
+      "duration" : 1433
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 5,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9731f79fcc41ed1",
+      "name" : "Given I'm on Denis' vk test page",
+      "title" : "Given I'm on denis' vk test page",
+      "time" : {
+        "start" : 1554234350341,
+        "stop" : 1554234350341,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "372023c860266b5d",
+      "name" : "Given I'm on Denis' vk test page",
+      "title" : "Given I'm on denis' vk test page",
+      "time" : {
+        "start" : 1554234350341,
+        "stop" : 1554234350341,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b74e92ca635869b7",
+      "name" : "When I post message on the wall",
+      "title" : "When I post message on the wall",
+      "time" : {
+        "start" : 1554234351117,
+        "stop" : 1554234351117,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5bed67a245dab470",
+      "name" : "When I make screenshot",
+      "title" : "When I make screenshot",
+      "time" : {
+        "start" : 1554234351577,
+        "stop" : 1554234351577,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "1e6c2c7ec8bd73ca",
+      "name" : "Then Message is posted",
+      "title" : "Then message is posted",
+      "time" : {
+        "start" : 1554234351773,
+        "stop" : 1554234351774,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

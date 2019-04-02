@@ -1,0 +1,47 @@
+{
+  "uid" : "f8e9aae87ef627f2",
+  "name" : "Given I'm on Denis' vk test page",
+  "title" : "Given I'm on denis' vk test page",
+  "time" : {
+    "start" : 1554234367613,
+    "stop" : 1554234367613,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "7da89225fef705a5",
+    "name" : "Scenario: Test adding a comment to the post",
+    "title" : "Scenario: test adding a comment to the post"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Scenario: Test adding a comment to the post"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook-Air.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7435@Alenas-MacBook-Air.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

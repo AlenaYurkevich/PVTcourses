@@ -1,0 +1,153 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 50,
+        "passed" : 50,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1554234296910,
+        "stop" : 1554234376240,
+        "duration" : 79330
+      }
+    },
+    "defects" : {
+      "totalCount" : 0,
+      "items" : [ ]
+    },
+    "xunit" : {
+      "totalCount" : 10,
+      "items" : [ {
+        "uid" : "cd20054db648ad52",
+        "title" : "Scenario: log out",
+        "statistic" : {
+          "total" : 5,
+          "passed" : 5,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "dffea0ffe205d696",
+        "title" : "Scenario: mark and unmark some emails with flags",
+        "statistic" : {
+          "total" : 8,
+          "passed" : 8,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "3dced4db4429a40a",
+        "title" : "Scenario: post message on the wall",
+        "statistic" : {
+          "total" : 5,
+          "passed" : 5,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "ddc68e150c1bb3d7",
+        "title" : "Scenario: put email from spam to inbox",
+        "statistic" : {
+          "total" : 6,
+          "passed" : 6,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "6229af2854f4ec54",
+        "title" : "Scenario: put email to spam",
+        "statistic" : {
+          "total" : 5,
+          "passed" : 5,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "788c52918d4ed605",
+        "title" : "Scenario: send email to several addressees",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "7da89225fef705a5",
+        "title" : "Scenario: test adding a comment to the post",
+        "statistic" : {
+          "total" : 5,
+          "passed" : 5,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "bc15c8970006e6e6",
+        "title" : "Scenario: test deleting the previously added message",
+        "statistic" : {
+          "total" : 5,
+          "passed" : 5,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "8021dc8ec74e0139",
+        "title" : "Scenario: test editing of the previously added message",
+        "statistic" : {
+          "total" : 5,
+          "passed" : 5,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "ab3daa849325ed2c",
+        "title" : "Scenario: try to log in with incorrect credentials",
+        "statistic" : {
+          "total" : 4,
+          "passed" : 4,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Without feature",
+        "statistic" : {
+          "total" : 50,
+          "passed" : 50,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1554234298767" stop="1554234376554" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Scenario: Put email to spam</name>
+    <test-cases>
+        <test-case start="1554234306421" stop="1554234306421" status="passed">
+            <name>When I log in the account</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234306421" stop="1554234306421" status="passed">
+            <name>When I log in the account</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234306914" stop="1554234306914" status="passed">
+            <name>When I check the first email checkbox and click the Spam button</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234307324" stop="1554234307324" status="passed">
+            <name>When I make the screenshot</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234307538" stop="1554234307538" status="passed">
+            <name>Then Notification about successful moving to Spam is displayed</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

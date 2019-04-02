@@ -1,0 +1,47 @@
+{
+  "uid" : "e65aab74f486edfb",
+  "name" : "Given I'm on Denis' vk test page",
+  "title" : "Given I'm on denis' vk test page",
+  "time" : {
+    "start" : 1554234375432,
+    "stop" : 1554234375432,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "bc15c8970006e6e6",
+    "name" : "Scenario: Test deleting the previously added message",
+    "title" : "Scenario: test deleting the previously added message"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Scenario: Test deleting the previously added message"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook-Air.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7435@Alenas-MacBook-Air.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

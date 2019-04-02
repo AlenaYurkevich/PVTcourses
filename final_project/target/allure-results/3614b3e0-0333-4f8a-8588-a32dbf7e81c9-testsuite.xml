@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1554234333181" stop="1554234376586" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Scenario: Put email from spam to Inbox</name>
+    <test-cases>
+        <test-case start="1554234341316" stop="1554234341317" status="passed">
+            <name>When I log in my email</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234341316" stop="1554234341317" status="passed">
+            <name>When I log in my email</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234342361" stop="1554234342361" status="passed">
+            <name>When I go to Spam</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234342541" stop="1554234342541" status="passed">
+            <name>When I return an email back to Inbox</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234342983" stop="1554234342983" status="passed">
+            <name>When I make another screenshot</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1554234343232" stop="1554234343232" status="passed">
+            <name>Then Notification about successful moving to Inbox is displayed</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alenas-MacBook-Air.local"/>
+                <label name="thread" value="7435@Alenas-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

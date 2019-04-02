@@ -1,0 +1,47 @@
+{
+  "uid" : "3d0fa0dc48b69465",
+  "name" : "When I log in with incorrect username and password taken from xml",
+  "title" : "When I log in with incorrect username and password taken from xml",
+  "time" : {
+    "start" : 1554234332579,
+    "stop" : 1554234332579,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "ab3daa849325ed2c",
+    "name" : "Scenario: Try to log in with incorrect credentials",
+    "title" : "Scenario: try to log in with incorrect credentials"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Scenario: Try to log in with incorrect credentials"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook-Air.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7435@Alenas-MacBook-Air.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}
